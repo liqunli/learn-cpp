@@ -1,0 +1,12 @@
+Description:
+A path is defined by a serial of marks where each mark is with a pair of coordinates, i.e., <x, y>. A file defining the path with k marks thus looks like:
+x0, y0
+x1, y1
+...
+xk-1, yk-1
+The segmentation problem wants to generate a serial of milestones along the path. The distance between milestone i and i+1 along the path is a constant. The first milestone, i.e., m0 is also the first mark in the path. It is possible that there is a tail in the path which is not sufficient for a segment. The output file contains a serial of coordinates, one for each milestone, similar to the input file. 
+x0, y0
+x1, y1
+...
+xn-1, yn-1
+where n is the number of milestones. 
