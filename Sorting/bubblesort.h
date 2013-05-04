@@ -1,7 +1,7 @@
 #ifndef BUBBLE_SORT_H
 #define BUBBLE_SORT_H
 
-#include "qsort.h"
+#include "swap.h"
 
 //implementation of bubble sort in a recursive way
 void my_bubblesort(int* array, int len)
@@ -16,7 +16,7 @@ void my_bubblesort(int* array, int len)
     {
         if(array[i] > array[i+1])
         {
-            swap(array, i, i+1);
+            swap(array, i, i+1, len);
         }
     }
     //deal with a smaller problem
@@ -33,7 +33,7 @@ void my_bubblesort2(int* array, int len)
         {
             if(array[j] > array[j+1])
             {
-                swap(array, j, j + 1);
+                swap(array, j, j + 1, len);
             }
         }
     }

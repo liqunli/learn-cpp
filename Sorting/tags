@@ -5,9 +5,60 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 BUBBLE_SORT_H	bubblesort.h	2;"	d
+HeapTree	heaptree.h	/^		HeapTree(HeapTree& another);$/;"	p	class:HeapTree	access:public	signature:(HeapTree& another)
+HeapTree	heaptree.h	/^		HeapTree(int* data, int len);$/;"	p	class:HeapTree	access:public	signature:(int* data, int len)
+HeapTree	heaptree.h	/^HeapTree::HeapTree(HeapTree& another)$/;"	f	class:HeapTree	signature:(HeapTree& another)
+HeapTree	heaptree.h	/^HeapTree::HeapTree(int* data, int len)$/;"	f	class:HeapTree	signature:(int* data, int len)
+HeapTree	heaptree.h	/^class HeapTree$/;"	c
+HeapTree::HeapTree	heaptree.h	/^		HeapTree(HeapTree& another);$/;"	p	class:HeapTree	access:public	signature:(HeapTree& another)
+HeapTree::HeapTree	heaptree.h	/^		HeapTree(int* data, int len);$/;"	p	class:HeapTree	access:public	signature:(int* data, int len)
+HeapTree::HeapTree	heaptree.h	/^HeapTree::HeapTree(HeapTree& another)$/;"	f	class:HeapTree	signature:(HeapTree& another)
+HeapTree::HeapTree	heaptree.h	/^HeapTree::HeapTree(int* data, int len)$/;"	f	class:HeapTree	signature:(int* data, int len)
+HeapTree::array	heaptree.h	/^		int array[MAX_TREE_SIZE];$/;"	m	class:HeapTree	access:private
+HeapTree::buildMaxHeapTree	heaptree.h	/^		void buildMaxHeapTree();$/;"	p	class:HeapTree	access:private	signature:()
+HeapTree::buildMaxHeapTree	heaptree.h	/^void HeapTree::buildMaxHeapTree()$/;"	f	class:HeapTree	signature:()
+HeapTree::getLeftChild	heaptree.h	/^		bool getLeftChild(int root, int& child);$/;"	p	class:HeapTree	access:private	signature:(int root, int& child)
+HeapTree::getLeftChild	heaptree.h	/^bool HeapTree::getLeftChild(int root, int& child)$/;"	f	class:HeapTree	signature:(int root, int& child)
+HeapTree::getParent	heaptree.h	/^		bool getParent(int child, int& parent);$/;"	p	class:HeapTree	access:private	signature:(int child, int& parent)
+HeapTree::getParent	heaptree.h	/^bool HeapTree::getParent(int child, int& parent)$/;"	f	class:HeapTree	signature:(int child, int& parent)
+HeapTree::getRightChild	heaptree.h	/^		bool getRightChild(int root, int &child);$/;"	p	class:HeapTree	access:private	signature:(int root, int &child)
+HeapTree::getRightChild	heaptree.h	/^bool HeapTree::getRightChild(int root, int& child)$/;"	f	class:HeapTree	signature:(int root, int& child)
+HeapTree::keepOrderDown	heaptree.h	/^		void keepOrderDown(int root);$/;"	p	class:HeapTree	access:private	signature:(int root)
+HeapTree::keepOrderDown	heaptree.h	/^void HeapTree::keepOrderDown(int root)$/;"	f	class:HeapTree	signature:(int root)
+HeapTree::printData	heaptree.h	/^		void printData();$/;"	p	class:HeapTree	access:public	signature:()
+HeapTree::printData	heaptree.h	/^void HeapTree::printData()$/;"	f	class:HeapTree	signature:()
+HeapTree::size	heaptree.h	/^		int size;$/;"	m	class:HeapTree	access:private
+HeapTree::sort	heaptree.h	/^		void sort();$/;"	p	class:HeapTree	access:public	signature:()
+HeapTree::sort	heaptree.h	/^void HeapTree::sort()$/;"	f	class:HeapTree	signature:()
+HeapTree::~HeapTree	heaptree.h	/^		~HeapTree();$/;"	p	class:HeapTree	access:public	signature:()
+HeapTree::~HeapTree	heaptree.h	/^HeapTree::~HeapTree()$/;"	f	class:HeapTree	signature:()
+MAX_TREE_SIZE	heaptree.h	6;"	d
+MERGE_SORT_H	mergesort.h	2;"	d
 QSORT_H	qsort.h	2;"	d
+SWAP_H	swap.h	2;"	d
+TREE_H	heaptree.h	2;"	d
+array	heaptree.h	/^		int array[MAX_TREE_SIZE];$/;"	m	class:HeapTree	access:private
+buildMaxHeapTree	heaptree.h	/^		void buildMaxHeapTree();$/;"	p	class:HeapTree	access:private	signature:()
+buildMaxHeapTree	heaptree.h	/^void HeapTree::buildMaxHeapTree()$/;"	f	class:HeapTree	signature:()
+getLeftChild	heaptree.h	/^		bool getLeftChild(int root, int& child);$/;"	p	class:HeapTree	access:private	signature:(int root, int& child)
+getLeftChild	heaptree.h	/^bool HeapTree::getLeftChild(int root, int& child)$/;"	f	class:HeapTree	signature:(int root, int& child)
+getParent	heaptree.h	/^		bool getParent(int child, int& parent);$/;"	p	class:HeapTree	access:private	signature:(int child, int& parent)
+getParent	heaptree.h	/^bool HeapTree::getParent(int child, int& parent)$/;"	f	class:HeapTree	signature:(int child, int& parent)
+getRightChild	heaptree.h	/^		bool getRightChild(int root, int &child);$/;"	p	class:HeapTree	access:private	signature:(int root, int &child)
+getRightChild	heaptree.h	/^bool HeapTree::getRightChild(int root, int& child)$/;"	f	class:HeapTree	signature:(int root, int& child)
+keepOrderDown	heaptree.h	/^		void keepOrderDown(int root);$/;"	p	class:HeapTree	access:private	signature:(int root)
+keepOrderDown	heaptree.h	/^void HeapTree::keepOrderDown(int root)$/;"	f	class:HeapTree	signature:(int root)
 main	main.cpp	/^int main()$/;"	f	signature:()
+mergeTwoArrays	mergesort.h	/^void mergeTwoArrays(int* array, int left, int mid, int right)$/;"	f	signature:(int* array, int left, int mid, int right)
 my_bubblesort	bubblesort.h	/^void my_bubblesort(int* array, int len)$/;"	f	signature:(int* array, int len)
 my_bubblesort2	bubblesort.h	/^void my_bubblesort2(int* array, int len)$/;"	f	signature:(int* array, int len)
+my_mergesort	mergesort.h	/^void my_mergesort(int* array, int left, int right)$/;"	f	signature:(int* array, int left, int right)
 my_qsort	qsort.h	/^void my_qsort(int* array, int left, int right)$/;"	f	signature:(int* array, int left, int right)
-swap	qsort.h	/^void swap(int* array, int i, int j)$/;"	f	signature:(int* array, int i, int j)
+printData	heaptree.h	/^		void printData();$/;"	p	class:HeapTree	access:public	signature:()
+printData	heaptree.h	/^void HeapTree::printData()$/;"	f	class:HeapTree	signature:()
+size	heaptree.h	/^		int size;$/;"	m	class:HeapTree	access:private
+sort	heaptree.h	/^		void sort();$/;"	p	class:HeapTree	access:public	signature:()
+sort	heaptree.h	/^void HeapTree::sort()$/;"	f	class:HeapTree	signature:()
+swap	swap.h	/^void swap(int* array, int i, int j, int len)$/;"	f	signature:(int* array, int i, int j, int len)
+~HeapTree	heaptree.h	/^		~HeapTree();$/;"	p	class:HeapTree	access:public	signature:()
+~HeapTree	heaptree.h	/^HeapTree::~HeapTree()$/;"	f	class:HeapTree	signature:()

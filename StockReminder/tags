@@ -1,0 +1,916 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy()$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy(const char *url)$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy(const char *url, soap_mode iomode)$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy(const struct soap &_soap) : soap(_soap)$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy(soap_mode imode, soap_mode omode)$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy(soap_mode iomode)$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.h	/^class SOAP_CMAC ChinaStockWebServiceSoapProxy : public soap$/;"	c
+ChinaStockWebServiceSoapProxy_init	soapChinaStockWebServiceSoapProxy.cpp	/^void ChinaStockWebServiceSoapProxy::ChinaStockWebServiceSoapProxy_init(soap_mode imode, soap_mode omode)$/;"	f	class:ChinaStockWebServiceSoapProxy
+ChinaStockWebServiceSoapService	soapChinaStockWebServiceSoapService.cpp	/^ChinaStockWebServiceSoapService::ChinaStockWebServiceSoapService()$/;"	f	class:ChinaStockWebServiceSoapService
+ChinaStockWebServiceSoapService	soapChinaStockWebServiceSoapService.cpp	/^ChinaStockWebServiceSoapService::ChinaStockWebServiceSoapService(const struct soap &_soap) : soap(_soap)$/;"	f	class:ChinaStockWebServiceSoapService
+ChinaStockWebServiceSoapService	soapChinaStockWebServiceSoapService.cpp	/^ChinaStockWebServiceSoapService::ChinaStockWebServiceSoapService(soap_mode imode, soap_mode omode)$/;"	f	class:ChinaStockWebServiceSoapService
+ChinaStockWebServiceSoapService	soapChinaStockWebServiceSoapService.cpp	/^ChinaStockWebServiceSoapService::ChinaStockWebServiceSoapService(soap_mode iomode)$/;"	f	class:ChinaStockWebServiceSoapService
+ChinaStockWebServiceSoapService	soapChinaStockWebServiceSoapService.h	/^class SOAP_CMAC ChinaStockWebServiceSoapService : public soap$/;"	c
+ChinaStockWebServiceSoapService_init	soapChinaStockWebServiceSoapService.cpp	/^void ChinaStockWebServiceSoapService::ChinaStockWebServiceSoapService_init(soap_mode imode, soap_mode omode)$/;"	f	class:ChinaStockWebServiceSoapService
+SOAP_ENV__Code	soapStub.h	/^	struct SOAP_ENV__Code *SOAP_ENV__Code;	\/* optional element of type SOAP-ENV:Code *\/$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Code
+SOAP_ENV__Code	soapStub.h	/^struct SOAP_ENV__Code$/;"	s
+SOAP_ENV__Detail	soapStub.h	/^	struct SOAP_ENV__Detail *SOAP_ENV__Detail;	\/* optional element of type SOAP-ENV:Detail *\/$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Detail
+SOAP_ENV__Detail	soapStub.h	/^struct SOAP_ENV__Detail$/;"	s
+SOAP_ENV__Fault	soapStub.h	/^struct SOAP_ENV__Fault$/;"	s
+SOAP_ENV__Header	soapStub.h	/^struct SOAP_ENV__Header$/;"	s
+SOAP_ENV__Node	soapStub.h	/^	char *SOAP_ENV__Node;	\/* optional element of type xsd:string *\/$/;"	m	struct:SOAP_ENV__Fault
+SOAP_ENV__Reason	soapStub.h	/^	struct SOAP_ENV__Reason *SOAP_ENV__Reason;	\/* optional element of type SOAP-ENV:Reason *\/$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Reason
+SOAP_ENV__Reason	soapStub.h	/^struct SOAP_ENV__Reason$/;"	s
+SOAP_ENV__Role	soapStub.h	/^	char *SOAP_ENV__Role;	\/* optional element of type xsd:string *\/$/;"	m	struct:SOAP_ENV__Fault
+SOAP_ENV__Subcode	soapStub.h	/^	struct SOAP_ENV__Code *SOAP_ENV__Subcode;	\/* optional element of type SOAP-ENV:Code *\/$/;"	m	struct:SOAP_ENV__Code	typeref:struct:SOAP_ENV__Code::SOAP_ENV__Code
+SOAP_ENV__Text	soapStub.h	/^	char *SOAP_ENV__Text;	\/* optional element of type xsd:string *\/$/;"	m	struct:SOAP_ENV__Reason
+SOAP_ENV__Value	soapStub.h	/^	char *SOAP_ENV__Value;	\/* optional element of type xsd:QName *\/$/;"	m	struct:SOAP_ENV__Code
+SOAP_NAMESPACE_OF_ns1	soapStub.h	13;"	d
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	ChinaStockWebServiceSoapService *copy() SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImageByCode(_ns1__getStockImageByCode *ns1__getStockImageByCode, _ns1__getStockImageByCodeResponse *ns1__getStockImageByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImageByCode_(_ns1__getStockImageByCode *ns1__getStockImageByCode, _ns1__getStockImageByCodeResponse *ns1__getStockImageByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImageByteByCode(_ns1__getStockImageByteByCode *ns1__getStockImageByteByCode, _ns1__getStockImageByteByCodeResponse *ns1__getStockImageByteByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImageByteByCode_(_ns1__getStockImageByteByCode *ns1__getStockImageByteByCode, _ns1__getStockImageByteByCodeResponse *ns1__getStockImageByteByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImage_USCOREkByCode(_ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode, _ns1__getStockImage_USCOREkByCodeResponse *ns1__getStockImage_USCOREkByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImage_USCOREkByCode_(_ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode, _ns1__getStockImage_USCOREkByCodeResponse *ns1__getStockImage_USCOREkByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImage_USCOREkByteByCode(_ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode, _ns1__getStockImage_USCOREkByteByCodeResponse *ns1__getStockImage_USCOREkByteByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockImage_USCOREkByteByCode_(_ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode, _ns1__getStockImage_USCOREkByteByCodeResponse *ns1__getStockImage_USCOREkByteByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockInfoByCode(_ns1__getStockInfoByCode *ns1__getStockInfoByCode, _ns1__getStockInfoByCodeResponse *ns1__getStockInfoByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_PURE_VIRTUAL	soapChinaStockWebServiceSoapService.h	/^	virtual	int getStockInfoByCode_(_ns1__getStockInfoByCode *ns1__getStockInfoByCode, _ns1__getStockInfoByCodeResponse *ns1__getStockInfoByCodeResponse) SOAP_PURE_VIRTUAL;$/;"	m	class:ChinaStockWebServiceSoapService
+SOAP_TYPE_PointerToSOAP_ENV__Code	soapH.h	1021;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Detail	soapH.h	998;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Reason	soapH.h	975;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImageByCode	soapH.h	1213;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImageByCodeResponse	soapH.h	1194;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImageByteByCode	soapH.h	1175;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImageByteByCodeResponse	soapH.h	1156;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImage_USCOREkByCode	soapH.h	1137;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapH.h	1118;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapH.h	1099;"	d
+SOAP_TYPE_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	1080;"	d
+SOAP_TYPE_PointerTo_ns1__getStockInfoByCode	soapH.h	1061;"	d
+SOAP_TYPE_PointerTo_ns1__getStockInfoByCodeResponse	soapH.h	1042;"	d
+SOAP_TYPE_PointerTons1__ArrayOfString	soapH.h	1232;"	d
+SOAP_TYPE_PointerTostring	soapH.h	1270;"	d
+SOAP_TYPE_PointerTounsignedByte	soapH.h	1289;"	d
+SOAP_TYPE_PointerToxsd__base64Binary	soapH.h	1251;"	d
+SOAP_TYPE_SOAP_ENV__Code	soapH.h	583;"	d
+SOAP_TYPE_SOAP_ENV__Code	soapStub.h	443;"	d
+SOAP_TYPE_SOAP_ENV__Detail	soapH.h	547;"	d
+SOAP_TYPE_SOAP_ENV__Detail	soapStub.h	460;"	d
+SOAP_TYPE_SOAP_ENV__Fault	soapH.h	475;"	d
+SOAP_TYPE_SOAP_ENV__Fault	soapStub.h	494;"	d
+SOAP_TYPE_SOAP_ENV__Header	soapH.h	619;"	d
+SOAP_TYPE_SOAP_ENV__Header	soapStub.h	425;"	d
+SOAP_TYPE_SOAP_ENV__Reason	soapH.h	511;"	d
+SOAP_TYPE_SOAP_ENV__Reason	soapStub.h	478;"	d
+SOAP_TYPE__QName	soapH.h	1308;"	d
+SOAP_TYPE__QName	soapStub.h	522;"	d
+SOAP_TYPE__XML	soapStub.h	527;"	d
+SOAP_TYPE___ns1__getStockImageByCode	soapH.h	941;"	d
+SOAP_TYPE___ns1__getStockImageByCode	soapStub.h	303;"	d
+SOAP_TYPE___ns1__getStockImageByCode_	soapH.h	781;"	d
+SOAP_TYPE___ns1__getStockImageByCode_	soapStub.h	363;"	d
+SOAP_TYPE___ns1__getStockImageByteByCode	soapH.h	909;"	d
+SOAP_TYPE___ns1__getStockImageByteByCode	soapStub.h	315;"	d
+SOAP_TYPE___ns1__getStockImageByteByCode_	soapH.h	749;"	d
+SOAP_TYPE___ns1__getStockImageByteByCode_	soapStub.h	375;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByCode	soapH.h	877;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByCode	soapStub.h	327;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByCode_	soapH.h	717;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByCode_	soapStub.h	387;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByteByCode	soapH.h	845;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByteByCode	soapStub.h	339;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByteByCode_	soapH.h	685;"	d
+SOAP_TYPE___ns1__getStockImage_USCOREkByteByCode_	soapStub.h	399;"	d
+SOAP_TYPE___ns1__getStockInfoByCode	soapH.h	813;"	d
+SOAP_TYPE___ns1__getStockInfoByCode	soapStub.h	351;"	d
+SOAP_TYPE___ns1__getStockInfoByCode_	soapH.h	653;"	d
+SOAP_TYPE___ns1__getStockInfoByCode_	soapStub.h	411;"	d
+SOAP_TYPE__ns1__getStockImageByCode	soapH.h	387;"	d
+SOAP_TYPE__ns1__getStockImageByCode	soapStub.h	93;"	d
+SOAP_TYPE__ns1__getStockImageByCodeResponse	soapH.h	358;"	d
+SOAP_TYPE__ns1__getStockImageByCodeResponse	soapStub.h	114;"	d
+SOAP_TYPE__ns1__getStockImageByteByCode	soapH.h	329;"	d
+SOAP_TYPE__ns1__getStockImageByteByCode	soapStub.h	134;"	d
+SOAP_TYPE__ns1__getStockImageByteByCodeResponse	soapH.h	300;"	d
+SOAP_TYPE__ns1__getStockImageByteByCodeResponse	soapStub.h	155;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByCode	soapH.h	271;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByCode	soapStub.h	176;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	242;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByCodeResponse	soapStub.h	198;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByteByCode	soapH.h	213;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByteByCode	soapStub.h	218;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	184;"	d
+SOAP_TYPE__ns1__getStockImage_USCOREkByteByCodeResponse	soapStub.h	240;"	d
+SOAP_TYPE__ns1__getStockInfoByCode	soapH.h	155;"	d
+SOAP_TYPE__ns1__getStockInfoByCode	soapStub.h	261;"	d
+SOAP_TYPE__ns1__getStockInfoByCodeResponse	soapH.h	126;"	d
+SOAP_TYPE__ns1__getStockInfoByCodeResponse	soapStub.h	282;"	d
+SOAP_TYPE_byte	soapH.h	46;"	d
+SOAP_TYPE_int	soapH.h	66;"	d
+SOAP_TYPE_ns1__ArrayOfString	soapH.h	416;"	d
+SOAP_TYPE_ns1__ArrayOfString	soapStub.h	71;"	d
+SOAP_TYPE_string	soapH.h	1330;"	d
+SOAP_TYPE_unsignedByte	soapH.h	86;"	d
+SOAP_TYPE_unsignedInt	soapH.h	106;"	d
+SOAP_TYPE_xsd__base64Binary	soapH.h	445;"	d
+SOAP_TYPE_xsd__base64Binary	soapStub.h	46;"	d
+_QName	soapStub.h	/^typedef char *_QName;$/;"	t
+_XML	soapStub.h	/^typedef char *_XML;$/;"	t
+__any	soapStub.h	/^	char *__any;$/;"	m	struct:SOAP_ENV__Detail
+__ns1__getStockImageByCode	soapStub.h	/^struct __ns1__getStockImageByCode$/;"	s
+__ns1__getStockImageByCode_	soapStub.h	/^struct __ns1__getStockImageByCode_$/;"	s
+__ns1__getStockImageByteByCode	soapStub.h	/^struct __ns1__getStockImageByteByCode$/;"	s
+__ns1__getStockImageByteByCode_	soapStub.h	/^struct __ns1__getStockImageByteByCode_$/;"	s
+__ns1__getStockImage_USCOREkByCode	soapStub.h	/^struct __ns1__getStockImage_USCOREkByCode$/;"	s
+__ns1__getStockImage_USCOREkByCode_	soapStub.h	/^struct __ns1__getStockImage_USCOREkByCode_$/;"	s
+__ns1__getStockImage_USCOREkByteByCode	soapStub.h	/^struct __ns1__getStockImage_USCOREkByteByCode$/;"	s
+__ns1__getStockImage_USCOREkByteByCode_	soapStub.h	/^struct __ns1__getStockImage_USCOREkByteByCode_$/;"	s
+__ns1__getStockInfoByCode	soapStub.h	/^struct __ns1__getStockInfoByCode$/;"	s
+__ns1__getStockInfoByCode_	soapStub.h	/^struct __ns1__getStockInfoByCode_$/;"	s
+__ptr	soapStub.h	/^	unsigned char *__ptr;$/;"	m	class:xsd__base64Binary
+__size	soapStub.h	/^	int __size;$/;"	m	class:xsd__base64Binary
+__sizestring	soapStub.h	/^	int __sizestring;	\/* sequence of elements <string> *\/$/;"	m	class:ns1__ArrayOfString
+__type	soapStub.h	/^	int __type;	\/* any type of element <fault> (defined below) *\/$/;"	m	struct:SOAP_ENV__Detail
+_ns1__getStockImageByCode	soapStub.h	/^	         _ns1__getStockImageByCode() { _ns1__getStockImageByCode::soap_default(NULL); }$/;"	f	class:_ns1__getStockImageByCode
+_ns1__getStockImageByCode	soapStub.h	/^class SOAP_CMAC _ns1__getStockImageByCode$/;"	c
+_ns1__getStockImageByCodeResponse	soapStub.h	/^	         _ns1__getStockImageByCodeResponse() { _ns1__getStockImageByCodeResponse::soap_default(NULL); }$/;"	f	class:_ns1__getStockImageByCodeResponse
+_ns1__getStockImageByCodeResponse	soapStub.h	/^class SOAP_CMAC _ns1__getStockImageByCodeResponse$/;"	c
+_ns1__getStockImageByteByCode	soapStub.h	/^	         _ns1__getStockImageByteByCode() { _ns1__getStockImageByteByCode::soap_default(NULL); }$/;"	f	class:_ns1__getStockImageByteByCode
+_ns1__getStockImageByteByCode	soapStub.h	/^class SOAP_CMAC _ns1__getStockImageByteByCode$/;"	c
+_ns1__getStockImageByteByCodeResponse	soapStub.h	/^	         _ns1__getStockImageByteByCodeResponse() { _ns1__getStockImageByteByCodeResponse::soap_default(NULL); }$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+_ns1__getStockImageByteByCodeResponse	soapStub.h	/^class SOAP_CMAC _ns1__getStockImageByteByCodeResponse$/;"	c
+_ns1__getStockImage_USCOREkByCode	soapStub.h	/^	         _ns1__getStockImage_USCOREkByCode() { _ns1__getStockImage_USCOREkByCode::soap_default(NULL); }$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+_ns1__getStockImage_USCOREkByCode	soapStub.h	/^class SOAP_CMAC _ns1__getStockImage_USCOREkByCode$/;"	c
+_ns1__getStockImage_USCOREkByCodeResponse	soapStub.h	/^	         _ns1__getStockImage_USCOREkByCodeResponse() { _ns1__getStockImage_USCOREkByCodeResponse::soap_default(NULL); }$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+_ns1__getStockImage_USCOREkByCodeResponse	soapStub.h	/^class SOAP_CMAC _ns1__getStockImage_USCOREkByCodeResponse$/;"	c
+_ns1__getStockImage_USCOREkByteByCode	soapStub.h	/^	         _ns1__getStockImage_USCOREkByteByCode() { _ns1__getStockImage_USCOREkByteByCode::soap_default(NULL); }$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+_ns1__getStockImage_USCOREkByteByCode	soapStub.h	/^class SOAP_CMAC _ns1__getStockImage_USCOREkByteByCode$/;"	c
+_ns1__getStockImage_USCOREkByteByCodeResponse	soapStub.h	/^	         _ns1__getStockImage_USCOREkByteByCodeResponse() { _ns1__getStockImage_USCOREkByteByCodeResponse::soap_default(NULL); }$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+_ns1__getStockImage_USCOREkByteByCodeResponse	soapStub.h	/^class SOAP_CMAC _ns1__getStockImage_USCOREkByteByCodeResponse$/;"	c
+_ns1__getStockInfoByCode	soapStub.h	/^	         _ns1__getStockInfoByCode() { _ns1__getStockInfoByCode::soap_default(NULL); }$/;"	f	class:_ns1__getStockInfoByCode
+_ns1__getStockInfoByCode	soapStub.h	/^class SOAP_CMAC _ns1__getStockInfoByCode$/;"	c
+_ns1__getStockInfoByCodeResponse	soapStub.h	/^	         _ns1__getStockInfoByCodeResponse() { _ns1__getStockInfoByCodeResponse::soap_default(NULL); }$/;"	f	class:_ns1__getStockInfoByCodeResponse
+_ns1__getStockInfoByCodeResponse	soapStub.h	/^class SOAP_CMAC _ns1__getStockInfoByCodeResponse$/;"	c
+accept	soapChinaStockWebServiceSoapService.cpp	/^SOAP_SOCKET ChinaStockWebServiceSoapService::accept()$/;"	f	class:ChinaStockWebServiceSoapService
+bind	soapChinaStockWebServiceSoapService.cpp	/^SOAP_SOCKET ChinaStockWebServiceSoapService::bind(const char *host, int port, int backlog)$/;"	f	class:ChinaStockWebServiceSoapService
+copy	soapChinaStockWebServiceSoapService.cpp	/^ChinaStockWebServiceSoapService *ChinaStockWebServiceSoapService::copy()$/;"	f	class:ChinaStockWebServiceSoapService
+destroy	soapChinaStockWebServiceSoapProxy.cpp	/^void ChinaStockWebServiceSoapProxy::destroy()$/;"	f	class:ChinaStockWebServiceSoapProxy
+destroy	soapChinaStockWebServiceSoapService.cpp	/^void ChinaStockWebServiceSoapService::destroy()$/;"	f	class:ChinaStockWebServiceSoapService
+detail	soapStub.h	/^	struct SOAP_ENV__Detail *detail;	\/* optional element of type SOAP-ENV:Detail *\/$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Detail
+dispatch	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::dispatch()$/;"	f	class:ChinaStockWebServiceSoapService
+dummy	soapStub.h	/^	char dummy;	\/* dummy member to enable compilation *\/$/;"	m	struct:SOAP_ENV__Header
+fault	soapStub.h	/^	void *fault;	\/* transient *\/$/;"	m	struct:SOAP_ENV__Detail
+faultactor	soapStub.h	/^	char *faultactor;	\/* optional element of type xsd:string *\/$/;"	m	struct:SOAP_ENV__Fault
+faultcode	soapStub.h	/^	char *faultcode;	\/* optional element of type xsd:QName *\/$/;"	m	struct:SOAP_ENV__Fault
+faultstring	soapStub.h	/^	char *faultstring;	\/* optional element of type xsd:string *\/$/;"	m	struct:SOAP_ENV__Fault
+getStockImageByCode	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImageByCode(const char *endpoint, const char *soap_action, _ns1__getStockImageByCode *ns1__getStockImageByCode, _ns1__getStockImageByCodeResponse *ns1__getStockImageByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByCode	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImageByCode(_ns1__getStockImageByCode *ns1__getStockImageByCode, _ns1__getStockImageByCodeResponse *ns1__getStockImageByCodeResponse) { return this->getStockImageByCode(NULL, NULL, ns1__getStockImageByCode, ns1__getStockImageByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByCode_	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImageByCode_(const char *endpoint, const char *soap_action, _ns1__getStockImageByCode *ns1__getStockImageByCode, _ns1__getStockImageByCodeResponse *ns1__getStockImageByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByCode_	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImageByCode_(_ns1__getStockImageByCode *ns1__getStockImageByCode, _ns1__getStockImageByCodeResponse *ns1__getStockImageByCodeResponse) { return this->getStockImageByCode_(NULL, NULL, ns1__getStockImageByCode, ns1__getStockImageByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByteByCode	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImageByteByCode(const char *endpoint, const char *soap_action, _ns1__getStockImageByteByCode *ns1__getStockImageByteByCode, _ns1__getStockImageByteByCodeResponse *ns1__getStockImageByteByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByteByCode	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImageByteByCode(_ns1__getStockImageByteByCode *ns1__getStockImageByteByCode, _ns1__getStockImageByteByCodeResponse *ns1__getStockImageByteByCodeResponse) { return this->getStockImageByteByCode(NULL, NULL, ns1__getStockImageByteByCode, ns1__getStockImageByteByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByteByCodeResult	soapStub.h	/^	xsd__base64Binary *getStockImageByteByCodeResult;	\/* SOAP 1.2 RPC return element (when namespace qualified) *\/	\/* optional element of type xsd:base64Binary *\/$/;"	m	class:_ns1__getStockImageByteByCodeResponse
+getStockImageByteByCode_	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImageByteByCode_(const char *endpoint, const char *soap_action, _ns1__getStockImageByteByCode *ns1__getStockImageByteByCode, _ns1__getStockImageByteByCodeResponse *ns1__getStockImageByteByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImageByteByCode_	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImageByteByCode_(_ns1__getStockImageByteByCode *ns1__getStockImageByteByCode, _ns1__getStockImageByteByCodeResponse *ns1__getStockImageByteByCodeResponse) { return this->getStockImageByteByCode_(NULL, NULL, ns1__getStockImageByteByCode, ns1__getStockImageByteByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByCode	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImage_USCOREkByCode(const char *endpoint, const char *soap_action, _ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode, _ns1__getStockImage_USCOREkByCodeResponse *ns1__getStockImage_USCOREkByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByCode	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImage_USCOREkByCode(_ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode, _ns1__getStockImage_USCOREkByCodeResponse *ns1__getStockImage_USCOREkByCodeResponse) { return this->getStockImage_USCOREkByCode(NULL, NULL, ns1__getStockImage_USCOREkByCode, ns1__getStockImage_USCOREkByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByCode_	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImage_USCOREkByCode_(const char *endpoint, const char *soap_action, _ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode, _ns1__getStockImage_USCOREkByCodeResponse *ns1__getStockImage_USCOREkByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByCode_	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImage_USCOREkByCode_(_ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode, _ns1__getStockImage_USCOREkByCodeResponse *ns1__getStockImage_USCOREkByCodeResponse) { return this->getStockImage_USCOREkByCode_(NULL, NULL, ns1__getStockImage_USCOREkByCode, ns1__getStockImage_USCOREkByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByteByCode	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImage_USCOREkByteByCode(const char *endpoint, const char *soap_action, _ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode, _ns1__getStockImage_USCOREkByteByCodeResponse *ns1__getStockImage_USCOREkByteByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByteByCode	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImage_USCOREkByteByCode(_ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode, _ns1__getStockImage_USCOREkByteByCodeResponse *ns1__getStockImage_USCOREkByteByCodeResponse) { return this->getStockImage_USCOREkByteByCode(NULL, NULL, ns1__getStockImage_USCOREkByteByCode, ns1__getStockImage_USCOREkByteByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByteByCodeResult	soapStub.h	/^	xsd__base64Binary *getStockImage_USCOREkByteByCodeResult;	\/* SOAP 1.2 RPC return element (when namespace qualified) *\/	\/* optional element of type xsd:base64Binary *\/$/;"	m	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+getStockImage_USCOREkByteByCode_	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockImage_USCOREkByteByCode_(const char *endpoint, const char *soap_action, _ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode, _ns1__getStockImage_USCOREkByteByCodeResponse *ns1__getStockImage_USCOREkByteByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockImage_USCOREkByteByCode_	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockImage_USCOREkByteByCode_(_ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode, _ns1__getStockImage_USCOREkByteByCodeResponse *ns1__getStockImage_USCOREkByteByCodeResponse) { return this->getStockImage_USCOREkByteByCode_(NULL, NULL, ns1__getStockImage_USCOREkByteByCode, ns1__getStockImage_USCOREkByteByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockInfoByCode	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockInfoByCode(const char *endpoint, const char *soap_action, _ns1__getStockInfoByCode *ns1__getStockInfoByCode, _ns1__getStockInfoByCodeResponse *ns1__getStockInfoByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockInfoByCode	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockInfoByCode(_ns1__getStockInfoByCode *ns1__getStockInfoByCode, _ns1__getStockInfoByCodeResponse *ns1__getStockInfoByCodeResponse) { return this->getStockInfoByCode(NULL, NULL, ns1__getStockInfoByCode, ns1__getStockInfoByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockInfoByCodeResult	soapStub.h	/^	ns1__ArrayOfString *getStockInfoByCodeResult;	\/* SOAP 1.2 RPC return element (when namespace qualified) *\/	\/* optional element of type ns1:ArrayOfString *\/$/;"	m	class:_ns1__getStockInfoByCodeResponse
+getStockInfoByCode_	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::getStockInfoByCode_(const char *endpoint, const char *soap_action, _ns1__getStockInfoByCode *ns1__getStockInfoByCode, _ns1__getStockInfoByCodeResponse *ns1__getStockInfoByCodeResponse)$/;"	f	class:ChinaStockWebServiceSoapProxy
+getStockInfoByCode_	soapChinaStockWebServiceSoapProxy.h	/^	virtual	int getStockInfoByCode_(_ns1__getStockInfoByCode *ns1__getStockInfoByCode, _ns1__getStockInfoByCodeResponse *ns1__getStockInfoByCodeResponse) { return this->getStockInfoByCode_(NULL, NULL, ns1__getStockInfoByCode, ns1__getStockInfoByCodeResponse); }$/;"	f	class:ChinaStockWebServiceSoapProxy
+id	soapStub.h	/^	char *id;	\/* optional element of type xsd:string *\/$/;"	m	class:xsd__base64Binary
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+ns1__ArrayOfString	soapStub.h	/^	         ns1__ArrayOfString() { ns1__ArrayOfString::soap_default(NULL); }$/;"	f	class:ns1__ArrayOfString
+ns1__ArrayOfString	soapStub.h	/^class SOAP_CMAC ns1__ArrayOfString$/;"	c
+ns1__getStockImageByCode	soapStub.h	/^	_ns1__getStockImageByCode *ns1__getStockImageByCode;	\/* optional element of type ns1:getStockImageByCode *\/$/;"	m	struct:__ns1__getStockImageByCode
+ns1__getStockImageByCode	soapStub.h	/^	_ns1__getStockImageByCode *ns1__getStockImageByCode;	\/* optional element of type ns1:getStockImageByCode *\/$/;"	m	struct:__ns1__getStockImageByCode_
+ns1__getStockImageByteByCode	soapStub.h	/^	_ns1__getStockImageByteByCode *ns1__getStockImageByteByCode;	\/* optional element of type ns1:getStockImageByteByCode *\/$/;"	m	struct:__ns1__getStockImageByteByCode
+ns1__getStockImageByteByCode	soapStub.h	/^	_ns1__getStockImageByteByCode *ns1__getStockImageByteByCode;	\/* optional element of type ns1:getStockImageByteByCode *\/$/;"	m	struct:__ns1__getStockImageByteByCode_
+ns1__getStockImage_USCOREkByCode	soapStub.h	/^	_ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode;	\/* optional element of type ns1:getStockImage_kByCode *\/$/;"	m	struct:__ns1__getStockImage_USCOREkByCode
+ns1__getStockImage_USCOREkByCode	soapStub.h	/^	_ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode;	\/* optional element of type ns1:getStockImage_kByCode *\/$/;"	m	struct:__ns1__getStockImage_USCOREkByCode_
+ns1__getStockImage_USCOREkByteByCode	soapStub.h	/^	_ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode;	\/* optional element of type ns1:getStockImage_kByteByCode *\/$/;"	m	struct:__ns1__getStockImage_USCOREkByteByCode
+ns1__getStockImage_USCOREkByteByCode	soapStub.h	/^	_ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode;	\/* optional element of type ns1:getStockImage_kByteByCode *\/$/;"	m	struct:__ns1__getStockImage_USCOREkByteByCode_
+ns1__getStockInfoByCode	soapStub.h	/^	_ns1__getStockInfoByCode *ns1__getStockInfoByCode;	\/* optional element of type ns1:getStockInfoByCode *\/$/;"	m	struct:__ns1__getStockInfoByCode
+ns1__getStockInfoByCode	soapStub.h	/^	_ns1__getStockInfoByCode *ns1__getStockInfoByCode;	\/* optional element of type ns1:getStockInfoByCode *\/$/;"	m	struct:__ns1__getStockInfoByCode_
+options	soapStub.h	/^	char *options;	\/* optional element of type xsd:string *\/$/;"	m	class:xsd__base64Binary
+reset	soapChinaStockWebServiceSoapProxy.cpp	/^void ChinaStockWebServiceSoapProxy::reset()$/;"	f	class:ChinaStockWebServiceSoapProxy
+reset	soapChinaStockWebServiceSoapService.cpp	/^void ChinaStockWebServiceSoapService::reset()$/;"	f	class:ChinaStockWebServiceSoapService
+run	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::run(int port)$/;"	f	class:ChinaStockWebServiceSoapService
+serve	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::serve()$/;"	f	class:ChinaStockWebServiceSoapService
+serve___ns1__getStockImageByCode	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImageByCode(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImageByCode_	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImageByCode_(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImageByteByCode	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImageByteByCode(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImageByteByCode_	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImageByteByCode_(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImage_USCOREkByCode	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImage_USCOREkByCode(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImage_USCOREkByCode_	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImage_USCOREkByCode_(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImage_USCOREkByteByCode	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImage_USCOREkByteByCode(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockImage_USCOREkByteByCode_	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockImage_USCOREkByteByCode_(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockInfoByCode	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockInfoByCode(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+serve___ns1__getStockInfoByCode_	soapChinaStockWebServiceSoapService.cpp	/^static int serve___ns1__getStockInfoByCode_(ChinaStockWebServiceSoapService *soap)$/;"	f	file:
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImageByCode	typeref:struct:_ns1__getStockImageByCode::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImageByCodeResponse	typeref:struct:_ns1__getStockImageByCodeResponse::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImageByteByCode	typeref:struct:_ns1__getStockImageByteByCode::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImageByteByCodeResponse	typeref:struct:_ns1__getStockImageByteByCodeResponse::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImage_USCOREkByCode	typeref:struct:_ns1__getStockImage_USCOREkByCode::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImage_USCOREkByCodeResponse	typeref:struct:_ns1__getStockImage_USCOREkByCodeResponse::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImage_USCOREkByteByCode	typeref:struct:_ns1__getStockImage_USCOREkByteByCode::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockImage_USCOREkByteByCodeResponse	typeref:struct:_ns1__getStockImage_USCOREkByteByCodeResponse::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockInfoByCode	typeref:struct:_ns1__getStockInfoByCode::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:_ns1__getStockInfoByCodeResponse	typeref:struct:_ns1__getStockInfoByCodeResponse::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:ns1__ArrayOfString	typeref:struct:ns1__ArrayOfString::soap
+soap	soapStub.h	/^	struct soap *soap;	\/* transient *\/$/;"	m	class:xsd__base64Binary	typeref:struct:xsd__base64Binary::soap
+soapChinaStockWebServiceSoapProxy_H	soapChinaStockWebServiceSoapProxy.h	12;"	d
+soapChinaStockWebServiceSoapService_H	soapChinaStockWebServiceSoapService.h	12;"	d
+soapH_H	soapH.h	12;"	d
+soapStub_H	soapStub.h	12;"	d
+soap_check_faultdetail	soapC.cpp	/^SOAP_FMAC3 const char * SOAP_FMAC4 soap_check_faultdetail(struct soap *soap)$/;"	f
+soap_check_faultsubcode	soapC.cpp	/^SOAP_FMAC3 const char * SOAP_FMAC4 soap_check_faultsubcode(struct soap *soap)$/;"	f
+soap_class_id_enter	soapC.cpp	/^SOAP_FMAC3 void* SOAP_FMAC4 soap_class_id_enter(struct soap *soap, const char *id, void *p, int t, size_t n, const char *type, const char *arrayType)$/;"	f
+soap_close_socket	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::soap_close_socket()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_close_socket	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::soap_close_socket()$/;"	f	class:ChinaStockWebServiceSoapService
+soap_copy_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Code(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Detail(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Fault(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Header(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_SOAP_ENV__Reason(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImageByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImageByCode_(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImageByteByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImageByteByCode_(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImage_USCOREkByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImage_USCOREkByCode_(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockInfoByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy___ns1__getStockInfoByCode_(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImageByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImageByCodeResponse(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImageByteByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImageByteByCodeResponse(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImage_USCOREkByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockInfoByCode(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy__ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy__ns1__getStockInfoByCodeResponse(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy_ns1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_ns1__ArrayOfString(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_copy_xsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_copy_xsd__base64Binary(struct soap *soap, int st, int tt, void *p, size_t len, const void *q, size_t n)$/;"	f
+soap_default	soapC.cpp	/^void _ns1__getStockImageByCode::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImageByCode
+soap_default	soapC.cpp	/^void _ns1__getStockImageByCodeResponse::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_default	soapC.cpp	/^void _ns1__getStockImageByteByCode::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImageByteByCode
+soap_default	soapC.cpp	/^void _ns1__getStockImageByteByCodeResponse::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_default	soapC.cpp	/^void _ns1__getStockImage_USCOREkByCode::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_default	soapC.cpp	/^void _ns1__getStockImage_USCOREkByCodeResponse::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_default	soapC.cpp	/^void _ns1__getStockImage_USCOREkByteByCode::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_default	soapC.cpp	/^void _ns1__getStockImage_USCOREkByteByCodeResponse::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_default	soapC.cpp	/^void _ns1__getStockInfoByCode::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockInfoByCode
+soap_default	soapC.cpp	/^void _ns1__getStockInfoByCodeResponse::soap_default(struct soap *soap)$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_default	soapC.cpp	/^void ns1__ArrayOfString::soap_default(struct soap *soap)$/;"	f	class:ns1__ArrayOfString
+soap_default	soapC.cpp	/^void xsd__base64Binary::soap_default(struct soap *soap)$/;"	f	class:xsd__base64Binary
+soap_default_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *a)$/;"	f
+soap_default_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *a)$/;"	f
+soap_default_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault *a)$/;"	f
+soap_default_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header *a)$/;"	f
+soap_default_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *a)$/;"	f
+soap_default__QName	soapH.h	1311;"	d
+soap_default___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImageByCode(struct soap *soap, struct __ns1__getStockImageByCode *a)$/;"	f
+soap_default___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImageByCode_(struct soap *soap, struct __ns1__getStockImageByCode_ *a)$/;"	f
+soap_default___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImageByteByCode(struct soap *soap, struct __ns1__getStockImageByteByCode *a)$/;"	f
+soap_default___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImageByteByCode_(struct soap *soap, struct __ns1__getStockImageByteByCode_ *a)$/;"	f
+soap_default___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImage_USCOREkByCode(struct soap *soap, struct __ns1__getStockImage_USCOREkByCode *a)$/;"	f
+soap_default___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImage_USCOREkByCode_(struct soap *soap, struct __ns1__getStockImage_USCOREkByCode_ *a)$/;"	f
+soap_default___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, struct __ns1__getStockImage_USCOREkByteByCode *a)$/;"	f
+soap_default___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, struct __ns1__getStockImage_USCOREkByteByCode_ *a)$/;"	f
+soap_default___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockInfoByCode(struct soap *soap, struct __ns1__getStockInfoByCode *a)$/;"	f
+soap_default___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default___ns1__getStockInfoByCode_(struct soap *soap, struct __ns1__getStockInfoByCode_ *a)$/;"	f
+soap_default_byte	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_byte(struct soap *soap, char *a)$/;"	f
+soap_default_int	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_int(struct soap *soap, int *a)$/;"	f
+soap_default_string	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_string(struct soap *soap, char **a)$/;"	f
+soap_default_unsignedByte	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_unsignedByte(struct soap *soap, unsigned char *a)$/;"	f
+soap_default_unsignedInt	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_unsignedInt(struct soap *soap, unsigned int *a)$/;"	f
+soap_delete_SOAP_ENV__Code	soapH.h	/^inline void soap_delete_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *p) { soap_delete(soap, p); }$/;"	f
+soap_delete_SOAP_ENV__Detail	soapH.h	/^inline void soap_delete_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *p) { soap_delete(soap, p); }$/;"	f
+soap_delete_SOAP_ENV__Fault	soapH.h	/^inline void soap_delete_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault *p) { soap_delete(soap, p); }$/;"	f
+soap_delete_SOAP_ENV__Header	soapH.h	/^inline void soap_delete_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header *p) { soap_delete(soap, p); }$/;"	f
+soap_delete_SOAP_ENV__Reason	soapH.h	/^inline void soap_delete_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImageByCode	soapH.h	/^inline void soap_delete___ns1__getStockImageByCode(struct soap *soap, struct __ns1__getStockImageByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImageByCode_	soapH.h	/^inline void soap_delete___ns1__getStockImageByCode_(struct soap *soap, struct __ns1__getStockImageByCode_ *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImageByteByCode	soapH.h	/^inline void soap_delete___ns1__getStockImageByteByCode(struct soap *soap, struct __ns1__getStockImageByteByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImageByteByCode_	soapH.h	/^inline void soap_delete___ns1__getStockImageByteByCode_(struct soap *soap, struct __ns1__getStockImageByteByCode_ *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImage_USCOREkByCode	soapH.h	/^inline void soap_delete___ns1__getStockImage_USCOREkByCode(struct soap *soap, struct __ns1__getStockImage_USCOREkByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImage_USCOREkByCode_	soapH.h	/^inline void soap_delete___ns1__getStockImage_USCOREkByCode_(struct soap *soap, struct __ns1__getStockImage_USCOREkByCode_ *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline void soap_delete___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, struct __ns1__getStockImage_USCOREkByteByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockImage_USCOREkByteByCode_	soapH.h	/^inline void soap_delete___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, struct __ns1__getStockImage_USCOREkByteByCode_ *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockInfoByCode	soapH.h	/^inline void soap_delete___ns1__getStockInfoByCode(struct soap *soap, struct __ns1__getStockInfoByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete___ns1__getStockInfoByCode_	soapH.h	/^inline void soap_delete___ns1__getStockInfoByCode_(struct soap *soap, struct __ns1__getStockInfoByCode_ *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImageByCode	soapH.h	/^inline void soap_delete__ns1__getStockImageByCode(struct soap *soap, _ns1__getStockImageByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImageByCodeResponse	soapH.h	/^inline void soap_delete__ns1__getStockImageByCodeResponse(struct soap *soap, _ns1__getStockImageByCodeResponse *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImageByteByCode	soapH.h	/^inline void soap_delete__ns1__getStockImageByteByCode(struct soap *soap, _ns1__getStockImageByteByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImageByteByCodeResponse	soapH.h	/^inline void soap_delete__ns1__getStockImageByteByCodeResponse(struct soap *soap, _ns1__getStockImageByteByCodeResponse *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImage_USCOREkByCode	soapH.h	/^inline void soap_delete__ns1__getStockImage_USCOREkByCode(struct soap *soap, _ns1__getStockImage_USCOREkByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	/^inline void soap_delete__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByCodeResponse *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline void soap_delete__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	/^inline void soap_delete__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByteByCodeResponse *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockInfoByCode	soapH.h	/^inline void soap_delete__ns1__getStockInfoByCode(struct soap *soap, _ns1__getStockInfoByCode *p) { soap_delete(soap, p); }$/;"	f
+soap_delete__ns1__getStockInfoByCodeResponse	soapH.h	/^inline void soap_delete__ns1__getStockInfoByCodeResponse(struct soap *soap, _ns1__getStockInfoByCodeResponse *p) { soap_delete(soap, p); }$/;"	f
+soap_delete_ns1__ArrayOfString	soapH.h	/^inline void soap_delete_ns1__ArrayOfString(struct soap *soap, ns1__ArrayOfString *p) { soap_delete(soap, p); }$/;"	f
+soap_delete_xsd__base64Binary	soapH.h	/^inline void soap_delete_xsd__base64Binary(struct soap *soap, xsd__base64Binary *p) { soap_delete(soap, p); }$/;"	f
+soap_endpoint	soapChinaStockWebServiceSoapProxy.h	/^	const char *soap_endpoint;$/;"	m	class:ChinaStockWebServiceSoapProxy
+soap_fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_fault(struct soap *soap)$/;"	f
+soap_fault	soapChinaStockWebServiceSoapProxy.cpp	/^const SOAP_ENV__Fault *ChinaStockWebServiceSoapProxy::soap_fault()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_fault_detail	soapChinaStockWebServiceSoapProxy.cpp	/^const char *ChinaStockWebServiceSoapProxy::soap_fault_detail()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_fault_string	soapChinaStockWebServiceSoapProxy.cpp	/^const char *ChinaStockWebServiceSoapProxy::soap_fault_string()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_faultcode	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultcode(struct soap *soap)$/;"	f
+soap_faultdetail	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultdetail(struct soap *soap)$/;"	f
+soap_faultstring	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultstring(struct soap *soap)$/;"	f
+soap_faultsubcode	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultsubcode(struct soap *soap)$/;"	f
+soap_fdelete	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_fdelete(struct soap_clist *p)$/;"	f
+soap_force_close_socket	soapChinaStockWebServiceSoapProxy.cpp	/^int ChinaStockWebServiceSoapProxy::soap_force_close_socket()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_force_close_socket	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::soap_force_close_socket()$/;"	f	class:ChinaStockWebServiceSoapService
+soap_get	soapC.cpp	/^void *_ns1__getStockImageByCode::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByCode
+soap_get	soapC.cpp	/^void *_ns1__getStockImageByCodeResponse::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_get	soapC.cpp	/^void *_ns1__getStockImageByteByCode::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByteByCode
+soap_get	soapC.cpp	/^void *_ns1__getStockImageByteByCodeResponse::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_get	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByCode::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_get	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByCodeResponse::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_get	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByteByCode::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_get	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByteByCodeResponse::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_get	soapC.cpp	/^void *_ns1__getStockInfoByCode::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockInfoByCode
+soap_get	soapC.cpp	/^void *_ns1__getStockInfoByCodeResponse::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_get	soapC.cpp	/^void *ns1__ArrayOfString::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:ns1__ArrayOfString
+soap_get	soapC.cpp	/^void *xsd__base64Binary::soap_get(struct soap *soap, const char *tag, const char *type)$/;"	f	class:xsd__base64Binary
+soap_get_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCode ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImageByCode(struct soap *soap, _ns1__getStockImageByCode **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCodeResponse ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImageByCodeResponse(struct soap *soap, _ns1__getStockImageByCodeResponse **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCode ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImageByteByCode(struct soap *soap, _ns1__getStockImageByteByCode **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCodeResponse ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImageByteByCodeResponse(struct soap *soap, _ns1__getStockImageByteByCodeResponse **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCode ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImage_USCOREkByCode(struct soap *soap, _ns1__getStockImage_USCOREkByCode **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCodeResponse ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByCodeResponse **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCode ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImage_USCOREkByteByCode(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCodeResponse ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByteByCodeResponse **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCode ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockInfoByCode(struct soap *soap, _ns1__getStockInfoByCode **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTo_ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCodeResponse ** SOAP_FMAC4 soap_get_PointerTo_ns1__getStockInfoByCodeResponse(struct soap *soap, _ns1__getStockInfoByCodeResponse **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTons1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 ns1__ArrayOfString ** SOAP_FMAC4 soap_get_PointerTons1__ArrayOfString(struct soap *soap, ns1__ArrayOfString **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTostring	soapC.cpp	/^SOAP_FMAC3 char *** SOAP_FMAC4 soap_get_PointerTostring(struct soap *soap, char ***p, const char *tag, const char *type)$/;"	f
+soap_get_PointerTounsignedByte	soapC.cpp	/^SOAP_FMAC3 unsigned char ** SOAP_FMAC4 soap_get_PointerTounsignedByte(struct soap *soap, unsigned char **p, const char *tag, const char *type)$/;"	f
+soap_get_PointerToxsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 xsd__base64Binary ** SOAP_FMAC4 soap_get_PointerToxsd__base64Binary(struct soap *soap, xsd__base64Binary **p, const char *tag, const char *type)$/;"	f
+soap_get_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code * SOAP_FMAC4 soap_get_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *p, const char *tag, const char *type)$/;"	f
+soap_get_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail * SOAP_FMAC4 soap_get_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *p, const char *tag, const char *type)$/;"	f
+soap_get_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Fault * SOAP_FMAC4 soap_get_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault *p, const char *tag, const char *type)$/;"	f
+soap_get_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Header * SOAP_FMAC4 soap_get_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header *p, const char *tag, const char *type)$/;"	f
+soap_get_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason * SOAP_FMAC4 soap_get_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *p, const char *tag, const char *type)$/;"	f
+soap_get__QName	soapC.cpp	/^SOAP_FMAC3 char ** SOAP_FMAC4 soap_get__QName(struct soap *soap, char **p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByCode * SOAP_FMAC4 soap_get___ns1__getStockImageByCode(struct soap *soap, struct __ns1__getStockImageByCode *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByCode_ * SOAP_FMAC4 soap_get___ns1__getStockImageByCode_(struct soap *soap, struct __ns1__getStockImageByCode_ *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByteByCode * SOAP_FMAC4 soap_get___ns1__getStockImageByteByCode(struct soap *soap, struct __ns1__getStockImageByteByCode *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByteByCode_ * SOAP_FMAC4 soap_get___ns1__getStockImageByteByCode_(struct soap *soap, struct __ns1__getStockImageByteByCode_ *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByCode * SOAP_FMAC4 soap_get___ns1__getStockImage_USCOREkByCode(struct soap *soap, struct __ns1__getStockImage_USCOREkByCode *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByCode_ * SOAP_FMAC4 soap_get___ns1__getStockImage_USCOREkByCode_(struct soap *soap, struct __ns1__getStockImage_USCOREkByCode_ *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByteByCode * SOAP_FMAC4 soap_get___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, struct __ns1__getStockImage_USCOREkByteByCode *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByteByCode_ * SOAP_FMAC4 soap_get___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, struct __ns1__getStockImage_USCOREkByteByCode_ *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockInfoByCode * SOAP_FMAC4 soap_get___ns1__getStockInfoByCode(struct soap *soap, struct __ns1__getStockInfoByCode *p, const char *tag, const char *type)$/;"	f
+soap_get___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockInfoByCode_ * SOAP_FMAC4 soap_get___ns1__getStockInfoByCode_(struct soap *soap, struct __ns1__getStockInfoByCode_ *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCode * SOAP_FMAC4 soap_get__ns1__getStockImageByCode(struct soap *soap, _ns1__getStockImageByCode *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCodeResponse * SOAP_FMAC4 soap_get__ns1__getStockImageByCodeResponse(struct soap *soap, _ns1__getStockImageByCodeResponse *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCode * SOAP_FMAC4 soap_get__ns1__getStockImageByteByCode(struct soap *soap, _ns1__getStockImageByteByCode *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCodeResponse * SOAP_FMAC4 soap_get__ns1__getStockImageByteByCodeResponse(struct soap *soap, _ns1__getStockImageByteByCodeResponse *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCode * SOAP_FMAC4 soap_get__ns1__getStockImage_USCOREkByCode(struct soap *soap, _ns1__getStockImage_USCOREkByCode *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCodeResponse * SOAP_FMAC4 soap_get__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByCodeResponse *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCode * SOAP_FMAC4 soap_get__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCodeResponse * SOAP_FMAC4 soap_get__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByteByCodeResponse *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCode * SOAP_FMAC4 soap_get__ns1__getStockInfoByCode(struct soap *soap, _ns1__getStockInfoByCode *p, const char *tag, const char *type)$/;"	f
+soap_get__ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCodeResponse * SOAP_FMAC4 soap_get__ns1__getStockInfoByCodeResponse(struct soap *soap, _ns1__getStockInfoByCodeResponse *p, const char *tag, const char *type)$/;"	f
+soap_get_byte	soapC.cpp	/^SOAP_FMAC3 char * SOAP_FMAC4 soap_get_byte(struct soap *soap, char *p, const char *tag, const char *type)$/;"	f
+soap_get_int	soapC.cpp	/^SOAP_FMAC3 int * SOAP_FMAC4 soap_get_int(struct soap *soap, int *p, const char *tag, const char *type)$/;"	f
+soap_get_ns1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 ns1__ArrayOfString * SOAP_FMAC4 soap_get_ns1__ArrayOfString(struct soap *soap, ns1__ArrayOfString *p, const char *tag, const char *type)$/;"	f
+soap_get_string	soapC.cpp	/^SOAP_FMAC3 char ** SOAP_FMAC4 soap_get_string(struct soap *soap, char **p, const char *tag, const char *type)$/;"	f
+soap_get_unsignedByte	soapC.cpp	/^SOAP_FMAC3 unsigned char * SOAP_FMAC4 soap_get_unsignedByte(struct soap *soap, unsigned char *p, const char *tag, const char *type)$/;"	f
+soap_get_unsignedInt	soapC.cpp	/^SOAP_FMAC3 unsigned int * SOAP_FMAC4 soap_get_unsignedInt(struct soap *soap, unsigned int *p, const char *tag, const char *type)$/;"	f
+soap_get_xsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 xsd__base64Binary * SOAP_FMAC4 soap_get_xsd__base64Binary(struct soap *soap, xsd__base64Binary *p, const char *tag, const char *type)$/;"	f
+soap_getelement	soapC.cpp	/^SOAP_FMAC3 void * SOAP_FMAC4 soap_getelement(struct soap *soap, int *type)$/;"	f
+soap_getfault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getfault(struct soap *soap)$/;"	f
+soap_getheader	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getheader(struct soap *soap)$/;"	f
+soap_getindependent	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getindependent(struct soap *soap)$/;"	f
+soap_header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_header(struct soap *soap)$/;"	f
+soap_header	soapChinaStockWebServiceSoapProxy.cpp	/^const SOAP_ENV__Header *ChinaStockWebServiceSoapProxy::soap_header()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_header	soapChinaStockWebServiceSoapService.cpp	/^const SOAP_ENV__Header *ChinaStockWebServiceSoapService::soap_header()$/;"	f	class:ChinaStockWebServiceSoapService
+soap_ignore_element	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_ignore_element(struct soap *soap)$/;"	f
+soap_in	soapC.cpp	/^void *_ns1__getStockImageByCode::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByCode
+soap_in	soapC.cpp	/^void *_ns1__getStockImageByCodeResponse::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_in	soapC.cpp	/^void *_ns1__getStockImageByteByCode::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByteByCode
+soap_in	soapC.cpp	/^void *_ns1__getStockImageByteByCodeResponse::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_in	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByCode::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_in	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByCodeResponse::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_in	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByteByCode::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_in	soapC.cpp	/^void *_ns1__getStockImage_USCOREkByteByCodeResponse::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_in	soapC.cpp	/^void *_ns1__getStockInfoByCode::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockInfoByCode
+soap_in	soapC.cpp	/^void *_ns1__getStockInfoByCodeResponse::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_in	soapC.cpp	/^void *ns1__ArrayOfString::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:ns1__ArrayOfString
+soap_in	soapC.cpp	/^void *xsd__base64Binary::soap_in(struct soap *soap, const char *tag, const char *type)$/;"	f	class:xsd__base64Binary
+soap_in_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Code(struct soap *soap, const char *tag, struct SOAP_ENV__Code **a, const char *type)$/;"	f
+soap_in_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Detail(struct soap *soap, const char *tag, struct SOAP_ENV__Detail **a, const char *type)$/;"	f
+soap_in_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Reason(struct soap *soap, const char *tag, struct SOAP_ENV__Reason **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCode ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImageByCode(struct soap *soap, const char *tag, _ns1__getStockImageByCode **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCodeResponse ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImageByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImageByCodeResponse **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCode ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImageByteByCode(struct soap *soap, const char *tag, _ns1__getStockImageByteByCode **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCodeResponse ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImageByteByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImageByteByCodeResponse **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCode ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImage_USCOREkByCode(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByCode **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCodeResponse ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByCodeResponse **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCode ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByteByCode **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCodeResponse ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByteByCodeResponse **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCode ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockInfoByCode(struct soap *soap, const char *tag, _ns1__getStockInfoByCode **a, const char *type)$/;"	f
+soap_in_PointerTo_ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCodeResponse ** SOAP_FMAC4 soap_in_PointerTo_ns1__getStockInfoByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockInfoByCodeResponse **a, const char *type)$/;"	f
+soap_in_PointerTons1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 ns1__ArrayOfString ** SOAP_FMAC4 soap_in_PointerTons1__ArrayOfString(struct soap *soap, const char *tag, ns1__ArrayOfString **a, const char *type)$/;"	f
+soap_in_PointerTostring	soapC.cpp	/^SOAP_FMAC3 char *** SOAP_FMAC4 soap_in_PointerTostring(struct soap *soap, const char *tag, char ***a, const char *type)$/;"	f
+soap_in_PointerTounsignedByte	soapC.cpp	/^SOAP_FMAC3 unsigned char ** SOAP_FMAC4 soap_in_PointerTounsignedByte(struct soap *soap, const char *tag, unsigned char **a, const char *type)$/;"	f
+soap_in_PointerToxsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 xsd__base64Binary ** SOAP_FMAC4 soap_in_PointerToxsd__base64Binary(struct soap *soap, const char *tag, xsd__base64Binary **a, const char *type)$/;"	f
+soap_in_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code * SOAP_FMAC4 soap_in_SOAP_ENV__Code(struct soap *soap, const char *tag, struct SOAP_ENV__Code *a, const char *type)$/;"	f
+soap_in_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail * SOAP_FMAC4 soap_in_SOAP_ENV__Detail(struct soap *soap, const char *tag, struct SOAP_ENV__Detail *a, const char *type)$/;"	f
+soap_in_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Fault * SOAP_FMAC4 soap_in_SOAP_ENV__Fault(struct soap *soap, const char *tag, struct SOAP_ENV__Fault *a, const char *type)$/;"	f
+soap_in_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Header * SOAP_FMAC4 soap_in_SOAP_ENV__Header(struct soap *soap, const char *tag, struct SOAP_ENV__Header *a, const char *type)$/;"	f
+soap_in_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason * SOAP_FMAC4 soap_in_SOAP_ENV__Reason(struct soap *soap, const char *tag, struct SOAP_ENV__Reason *a, const char *type)$/;"	f
+soap_in__QName	soapC.cpp	/^SOAP_FMAC3 char * * SOAP_FMAC4 soap_in__QName(struct soap *soap, const char *tag, char **a, const char *type)$/;"	f
+soap_in___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByCode * SOAP_FMAC4 soap_in___ns1__getStockImageByCode(struct soap *soap, const char *tag, struct __ns1__getStockImageByCode *a, const char *type)$/;"	f
+soap_in___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByCode_ * SOAP_FMAC4 soap_in___ns1__getStockImageByCode_(struct soap *soap, const char *tag, struct __ns1__getStockImageByCode_ *a, const char *type)$/;"	f
+soap_in___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByteByCode * SOAP_FMAC4 soap_in___ns1__getStockImageByteByCode(struct soap *soap, const char *tag, struct __ns1__getStockImageByteByCode *a, const char *type)$/;"	f
+soap_in___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImageByteByCode_ * SOAP_FMAC4 soap_in___ns1__getStockImageByteByCode_(struct soap *soap, const char *tag, struct __ns1__getStockImageByteByCode_ *a, const char *type)$/;"	f
+soap_in___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByCode * SOAP_FMAC4 soap_in___ns1__getStockImage_USCOREkByCode(struct soap *soap, const char *tag, struct __ns1__getStockImage_USCOREkByCode *a, const char *type)$/;"	f
+soap_in___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByCode_ * SOAP_FMAC4 soap_in___ns1__getStockImage_USCOREkByCode_(struct soap *soap, const char *tag, struct __ns1__getStockImage_USCOREkByCode_ *a, const char *type)$/;"	f
+soap_in___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByteByCode * SOAP_FMAC4 soap_in___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const char *tag, struct __ns1__getStockImage_USCOREkByteByCode *a, const char *type)$/;"	f
+soap_in___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockImage_USCOREkByteByCode_ * SOAP_FMAC4 soap_in___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, const char *tag, struct __ns1__getStockImage_USCOREkByteByCode_ *a, const char *type)$/;"	f
+soap_in___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockInfoByCode * SOAP_FMAC4 soap_in___ns1__getStockInfoByCode(struct soap *soap, const char *tag, struct __ns1__getStockInfoByCode *a, const char *type)$/;"	f
+soap_in___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 struct __ns1__getStockInfoByCode_ * SOAP_FMAC4 soap_in___ns1__getStockInfoByCode_(struct soap *soap, const char *tag, struct __ns1__getStockInfoByCode_ *a, const char *type)$/;"	f
+soap_in__ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCode * SOAP_FMAC4 soap_in__ns1__getStockImageByCode(struct soap *soap, const char *tag, _ns1__getStockImageByCode *a, const char *type)$/;"	f
+soap_in__ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByCodeResponse * SOAP_FMAC4 soap_in__ns1__getStockImageByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImageByCodeResponse *a, const char *type)$/;"	f
+soap_in__ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCode * SOAP_FMAC4 soap_in__ns1__getStockImageByteByCode(struct soap *soap, const char *tag, _ns1__getStockImageByteByCode *a, const char *type)$/;"	f
+soap_in__ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImageByteByCodeResponse * SOAP_FMAC4 soap_in__ns1__getStockImageByteByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImageByteByCodeResponse *a, const char *type)$/;"	f
+soap_in__ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCode * SOAP_FMAC4 soap_in__ns1__getStockImage_USCOREkByCode(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByCode *a, const char *type)$/;"	f
+soap_in__ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByCodeResponse * SOAP_FMAC4 soap_in__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByCodeResponse *a, const char *type)$/;"	f
+soap_in__ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCode * SOAP_FMAC4 soap_in__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByteByCode *a, const char *type)$/;"	f
+soap_in__ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockImage_USCOREkByteByCodeResponse * SOAP_FMAC4 soap_in__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockImage_USCOREkByteByCodeResponse *a, const char *type)$/;"	f
+soap_in__ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCode * SOAP_FMAC4 soap_in__ns1__getStockInfoByCode(struct soap *soap, const char *tag, _ns1__getStockInfoByCode *a, const char *type)$/;"	f
+soap_in__ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 _ns1__getStockInfoByCodeResponse * SOAP_FMAC4 soap_in__ns1__getStockInfoByCodeResponse(struct soap *soap, const char *tag, _ns1__getStockInfoByCodeResponse *a, const char *type)$/;"	f
+soap_in_byte	soapC.cpp	/^SOAP_FMAC3 char * SOAP_FMAC4 soap_in_byte(struct soap *soap, const char *tag, char *a, const char *type)$/;"	f
+soap_in_int	soapC.cpp	/^SOAP_FMAC3 int * SOAP_FMAC4 soap_in_int(struct soap *soap, const char *tag, int *a, const char *type)$/;"	f
+soap_in_ns1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 ns1__ArrayOfString * SOAP_FMAC4 soap_in_ns1__ArrayOfString(struct soap *soap, const char *tag, ns1__ArrayOfString *a, const char *type)$/;"	f
+soap_in_string	soapC.cpp	/^SOAP_FMAC3 char * * SOAP_FMAC4 soap_in_string(struct soap *soap, const char *tag, char **a, const char *type)$/;"	f
+soap_in_unsignedByte	soapC.cpp	/^SOAP_FMAC3 unsigned char * SOAP_FMAC4 soap_in_unsignedByte(struct soap *soap, const char *tag, unsigned char *a, const char *type)$/;"	f
+soap_in_unsignedInt	soapC.cpp	/^SOAP_FMAC3 unsigned int * SOAP_FMAC4 soap_in_unsignedInt(struct soap *soap, const char *tag, unsigned int *a, const char *type)$/;"	f
+soap_in_xsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 xsd__base64Binary * SOAP_FMAC4 soap_in_xsd__base64Binary(struct soap *soap, const char *tag, xsd__base64Binary *a, const char *type)$/;"	f
+soap_instantiate	soapC.cpp	/^SOAP_FMAC3 void * SOAP_FMAC4 soap_instantiate(struct soap *soap, int t, const char *type, const char *arrayType, size_t *n)$/;"	f
+soap_instantiate_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Code * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Code(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Detail * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Detail(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Fault * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Fault(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Header * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Header(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Reason * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Reason(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImageByCode * SOAP_FMAC2 soap_instantiate___ns1__getStockImageByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImageByCode_ * SOAP_FMAC2 soap_instantiate___ns1__getStockImageByCode_(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImageByteByCode * SOAP_FMAC2 soap_instantiate___ns1__getStockImageByteByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImageByteByCode_ * SOAP_FMAC2 soap_instantiate___ns1__getStockImageByteByCode_(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImage_USCOREkByCode * SOAP_FMAC2 soap_instantiate___ns1__getStockImage_USCOREkByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImage_USCOREkByCode_ * SOAP_FMAC2 soap_instantiate___ns1__getStockImage_USCOREkByCode_(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImage_USCOREkByteByCode * SOAP_FMAC2 soap_instantiate___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockImage_USCOREkByteByCode_ * SOAP_FMAC2 soap_instantiate___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockInfoByCode * SOAP_FMAC2 soap_instantiate___ns1__getStockInfoByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC1 struct __ns1__getStockInfoByCode_ * SOAP_FMAC2 soap_instantiate___ns1__getStockInfoByCode_(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImageByCode * SOAP_FMAC2 soap_instantiate__ns1__getStockImageByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImageByCodeResponse * SOAP_FMAC2 soap_instantiate__ns1__getStockImageByCodeResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImageByteByCode * SOAP_FMAC2 soap_instantiate__ns1__getStockImageByteByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImageByteByCodeResponse * SOAP_FMAC2 soap_instantiate__ns1__getStockImageByteByCodeResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImage_USCOREkByCode * SOAP_FMAC2 soap_instantiate__ns1__getStockImage_USCOREkByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImage_USCOREkByCodeResponse * SOAP_FMAC2 soap_instantiate__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImage_USCOREkByteByCode * SOAP_FMAC2 soap_instantiate__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockImage_USCOREkByteByCodeResponse * SOAP_FMAC2 soap_instantiate__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockInfoByCode * SOAP_FMAC2 soap_instantiate__ns1__getStockInfoByCode(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate__ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC1 _ns1__getStockInfoByCodeResponse * SOAP_FMAC2 soap_instantiate__ns1__getStockInfoByCodeResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate_ns1__ArrayOfString	soapC.cpp	/^SOAP_FMAC1 ns1__ArrayOfString * SOAP_FMAC2 soap_instantiate_ns1__ArrayOfString(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_instantiate_xsd__base64Binary	soapC.cpp	/^SOAP_FMAC1 xsd__base64Binary * SOAP_FMAC2 soap_instantiate_xsd__base64Binary(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f
+soap_markelement	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_markelement(struct soap *soap, const void *ptr, int type)$/;"	f
+soap_new_SOAP_ENV__Code	soapH.h	/^inline struct SOAP_ENV__Code * soap_new_SOAP_ENV__Code(struct soap *soap, int n = -1) { return soap_instantiate_SOAP_ENV__Code(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new_SOAP_ENV__Detail	soapH.h	/^inline struct SOAP_ENV__Detail * soap_new_SOAP_ENV__Detail(struct soap *soap, int n = -1) { return soap_instantiate_SOAP_ENV__Detail(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new_SOAP_ENV__Fault	soapH.h	/^inline struct SOAP_ENV__Fault * soap_new_SOAP_ENV__Fault(struct soap *soap, int n = -1) { return soap_instantiate_SOAP_ENV__Fault(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new_SOAP_ENV__Header	soapH.h	/^inline struct SOAP_ENV__Header * soap_new_SOAP_ENV__Header(struct soap *soap, int n = -1) { return soap_instantiate_SOAP_ENV__Header(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new_SOAP_ENV__Reason	soapH.h	/^inline struct SOAP_ENV__Reason * soap_new_SOAP_ENV__Reason(struct soap *soap, int n = -1) { return soap_instantiate_SOAP_ENV__Reason(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImageByCode	soapH.h	/^inline struct __ns1__getStockImageByCode * soap_new___ns1__getStockImageByCode(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImageByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImageByCode_	soapH.h	/^inline struct __ns1__getStockImageByCode_ * soap_new___ns1__getStockImageByCode_(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImageByCode_(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImageByteByCode	soapH.h	/^inline struct __ns1__getStockImageByteByCode * soap_new___ns1__getStockImageByteByCode(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImageByteByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImageByteByCode_	soapH.h	/^inline struct __ns1__getStockImageByteByCode_ * soap_new___ns1__getStockImageByteByCode_(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImageByteByCode_(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImage_USCOREkByCode	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByCode * soap_new___ns1__getStockImage_USCOREkByCode(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImage_USCOREkByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImage_USCOREkByCode_	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByCode_ * soap_new___ns1__getStockImage_USCOREkByCode_(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImage_USCOREkByCode_(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByteByCode * soap_new___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImage_USCOREkByteByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockImage_USCOREkByteByCode_	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByteByCode_ * soap_new___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockImage_USCOREkByteByCode_(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockInfoByCode	soapH.h	/^inline struct __ns1__getStockInfoByCode * soap_new___ns1__getStockInfoByCode(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockInfoByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new___ns1__getStockInfoByCode_	soapH.h	/^inline struct __ns1__getStockInfoByCode_ * soap_new___ns1__getStockInfoByCode_(struct soap *soap, int n = -1) { return soap_instantiate___ns1__getStockInfoByCode_(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImageByCode	soapH.h	/^inline _ns1__getStockImageByCode * soap_new__ns1__getStockImageByCode(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImageByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImageByCodeResponse	soapH.h	/^inline _ns1__getStockImageByCodeResponse * soap_new__ns1__getStockImageByCodeResponse(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImageByCodeResponse(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImageByteByCode	soapH.h	/^inline _ns1__getStockImageByteByCode * soap_new__ns1__getStockImageByteByCode(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImageByteByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImageByteByCodeResponse	soapH.h	/^inline _ns1__getStockImageByteByCodeResponse * soap_new__ns1__getStockImageByteByCodeResponse(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImageByteByCodeResponse(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImage_USCOREkByCode	soapH.h	/^inline _ns1__getStockImage_USCOREkByCode * soap_new__ns1__getStockImage_USCOREkByCode(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImage_USCOREkByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	/^inline _ns1__getStockImage_USCOREkByCodeResponse * soap_new__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImage_USCOREkByCodeResponse(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline _ns1__getStockImage_USCOREkByteByCode * soap_new__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImage_USCOREkByteByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	/^inline _ns1__getStockImage_USCOREkByteByCodeResponse * soap_new__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockImage_USCOREkByteByCodeResponse(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockInfoByCode	soapH.h	/^inline _ns1__getStockInfoByCode * soap_new__ns1__getStockInfoByCode(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockInfoByCode(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new__ns1__getStockInfoByCodeResponse	soapH.h	/^inline _ns1__getStockInfoByCodeResponse * soap_new__ns1__getStockInfoByCodeResponse(struct soap *soap, int n = -1) { return soap_instantiate__ns1__getStockInfoByCodeResponse(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new_ns1__ArrayOfString	soapH.h	/^inline ns1__ArrayOfString * soap_new_ns1__ArrayOfString(struct soap *soap, int n = -1) { return soap_instantiate_ns1__ArrayOfString(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_new_req_SOAP_ENV__Code	soapH.h	/^inline struct SOAP_ENV__Code * soap_new_req_SOAP_ENV__Code(struct soap *soap) { struct SOAP_ENV__Code *_p = soap_instantiate_SOAP_ENV__Code(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Code(soap, _p); } return _p; }$/;"	f
+soap_new_req_SOAP_ENV__Detail	soapH.h	/^inline struct SOAP_ENV__Detail * soap_new_req_SOAP_ENV__Detail(struct soap *soap, int __type, void *fault) { struct SOAP_ENV__Detail *_p = soap_instantiate_SOAP_ENV__Detail(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Detail(soap, _p); _p->__type = __type; _p->fault = fault; } return _p; }$/;"	f
+soap_new_req_SOAP_ENV__Fault	soapH.h	/^inline struct SOAP_ENV__Fault * soap_new_req_SOAP_ENV__Fault(struct soap *soap) { struct SOAP_ENV__Fault *_p = soap_instantiate_SOAP_ENV__Fault(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Fault(soap, _p); } return _p; }$/;"	f
+soap_new_req_SOAP_ENV__Header	soapH.h	/^inline struct SOAP_ENV__Header * soap_new_req_SOAP_ENV__Header(struct soap *soap) { struct SOAP_ENV__Header *_p = soap_instantiate_SOAP_ENV__Header(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Header(soap, _p); } return _p; }$/;"	f
+soap_new_req_SOAP_ENV__Reason	soapH.h	/^inline struct SOAP_ENV__Reason * soap_new_req_SOAP_ENV__Reason(struct soap *soap) { struct SOAP_ENV__Reason *_p = soap_instantiate_SOAP_ENV__Reason(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Reason(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImageByCode	soapH.h	/^inline struct __ns1__getStockImageByCode * soap_new_req___ns1__getStockImageByCode(struct soap *soap) { struct __ns1__getStockImageByCode *_p = soap_instantiate___ns1__getStockImageByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByCode(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImageByCode_	soapH.h	/^inline struct __ns1__getStockImageByCode_ * soap_new_req___ns1__getStockImageByCode_(struct soap *soap) { struct __ns1__getStockImageByCode_ *_p = soap_instantiate___ns1__getStockImageByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByCode_(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImageByteByCode	soapH.h	/^inline struct __ns1__getStockImageByteByCode * soap_new_req___ns1__getStockImageByteByCode(struct soap *soap) { struct __ns1__getStockImageByteByCode *_p = soap_instantiate___ns1__getStockImageByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByteByCode(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImageByteByCode_	soapH.h	/^inline struct __ns1__getStockImageByteByCode_ * soap_new_req___ns1__getStockImageByteByCode_(struct soap *soap) { struct __ns1__getStockImageByteByCode_ *_p = soap_instantiate___ns1__getStockImageByteByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByteByCode_(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImage_USCOREkByCode	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByCode * soap_new_req___ns1__getStockImage_USCOREkByCode(struct soap *soap) { struct __ns1__getStockImage_USCOREkByCode *_p = soap_instantiate___ns1__getStockImage_USCOREkByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByCode(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImage_USCOREkByCode_	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByCode_ * soap_new_req___ns1__getStockImage_USCOREkByCode_(struct soap *soap) { struct __ns1__getStockImage_USCOREkByCode_ *_p = soap_instantiate___ns1__getStockImage_USCOREkByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByCode_(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByteByCode * soap_new_req___ns1__getStockImage_USCOREkByteByCode(struct soap *soap) { struct __ns1__getStockImage_USCOREkByteByCode *_p = soap_instantiate___ns1__getStockImage_USCOREkByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByteByCode(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockImage_USCOREkByteByCode_	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByteByCode_ * soap_new_req___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap) { struct __ns1__getStockImage_USCOREkByteByCode_ *_p = soap_instantiate___ns1__getStockImage_USCOREkByteByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByteByCode_(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockInfoByCode	soapH.h	/^inline struct __ns1__getStockInfoByCode * soap_new_req___ns1__getStockInfoByCode(struct soap *soap) { struct __ns1__getStockInfoByCode *_p = soap_instantiate___ns1__getStockInfoByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockInfoByCode(soap, _p); } return _p; }$/;"	f
+soap_new_req___ns1__getStockInfoByCode_	soapH.h	/^inline struct __ns1__getStockInfoByCode_ * soap_new_req___ns1__getStockInfoByCode_(struct soap *soap) { struct __ns1__getStockInfoByCode_ *_p = soap_instantiate___ns1__getStockInfoByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockInfoByCode_(soap, _p); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImageByCode	soapH.h	/^inline _ns1__getStockImageByCode * soap_new_req__ns1__getStockImageByCode(struct soap *soap) { _ns1__getStockImageByCode *_p = soap_instantiate__ns1__getStockImageByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImageByCodeResponse	soapH.h	/^inline _ns1__getStockImageByCodeResponse * soap_new_req__ns1__getStockImageByCodeResponse(struct soap *soap) { _ns1__getStockImageByCodeResponse *_p = soap_instantiate__ns1__getStockImageByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImageByteByCode	soapH.h	/^inline _ns1__getStockImageByteByCode * soap_new_req__ns1__getStockImageByteByCode(struct soap *soap) { _ns1__getStockImageByteByCode *_p = soap_instantiate__ns1__getStockImageByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImageByteByCodeResponse	soapH.h	/^inline _ns1__getStockImageByteByCodeResponse * soap_new_req__ns1__getStockImageByteByCodeResponse(struct soap *soap) { _ns1__getStockImageByteByCodeResponse *_p = soap_instantiate__ns1__getStockImageByteByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImage_USCOREkByCode	soapH.h	/^inline _ns1__getStockImage_USCOREkByCode * soap_new_req__ns1__getStockImage_USCOREkByCode(struct soap *soap) { _ns1__getStockImage_USCOREkByCode *_p = soap_instantiate__ns1__getStockImage_USCOREkByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	/^inline _ns1__getStockImage_USCOREkByCodeResponse * soap_new_req__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap) { _ns1__getStockImage_USCOREkByCodeResponse *_p = soap_instantiate__ns1__getStockImage_USCOREkByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline _ns1__getStockImage_USCOREkByteByCode * soap_new_req__ns1__getStockImage_USCOREkByteByCode(struct soap *soap) { _ns1__getStockImage_USCOREkByteByCode *_p = soap_instantiate__ns1__getStockImage_USCOREkByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	/^inline _ns1__getStockImage_USCOREkByteByCodeResponse * soap_new_req__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap) { _ns1__getStockImage_USCOREkByteByCodeResponse *_p = soap_instantiate__ns1__getStockImage_USCOREkByteByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockInfoByCode	soapH.h	/^inline _ns1__getStockInfoByCode * soap_new_req__ns1__getStockInfoByCode(struct soap *soap) { _ns1__getStockInfoByCode *_p = soap_instantiate__ns1__getStockInfoByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req__ns1__getStockInfoByCodeResponse	soapH.h	/^inline _ns1__getStockInfoByCodeResponse * soap_new_req__ns1__getStockInfoByCodeResponse(struct soap *soap) { _ns1__getStockInfoByCodeResponse *_p = soap_instantiate__ns1__getStockInfoByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_req_ns1__ArrayOfString	soapH.h	/^inline ns1__ArrayOfString * soap_new_req_ns1__ArrayOfString(struct soap *soap, int __sizestring, char **string) { ns1__ArrayOfString *_p = soap_instantiate_ns1__ArrayOfString(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->ns1__ArrayOfString::__sizestring = __sizestring; _p->ns1__ArrayOfString::string = string; } return _p; }$/;"	f
+soap_new_req_xsd__base64Binary	soapH.h	/^inline xsd__base64Binary * soap_new_req_xsd__base64Binary(struct soap *soap) { xsd__base64Binary *_p = soap_instantiate_xsd__base64Binary(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_set_SOAP_ENV__Code	soapH.h	/^inline struct SOAP_ENV__Code * soap_new_set_SOAP_ENV__Code(struct soap *soap, char *SOAP_ENV__Value, struct SOAP_ENV__Code *SOAP_ENV__Subcode) { struct SOAP_ENV__Code *_p = soap_instantiate_SOAP_ENV__Code(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Code(soap, _p); _p->SOAP_ENV__Value = SOAP_ENV__Value; _p->SOAP_ENV__Subcode = SOAP_ENV__Subcode; } return _p; }$/;"	f
+soap_new_set_SOAP_ENV__Detail	soapH.h	/^inline struct SOAP_ENV__Detail * soap_new_set_SOAP_ENV__Detail(struct soap *soap, char *__any, int __type, void *fault) { struct SOAP_ENV__Detail *_p = soap_instantiate_SOAP_ENV__Detail(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Detail(soap, _p); _p->__any = __any; _p->__type = __type; _p->fault = fault; } return _p; }$/;"	f
+soap_new_set_SOAP_ENV__Fault	soapH.h	/^inline struct SOAP_ENV__Fault * soap_new_set_SOAP_ENV__Fault(struct soap *soap, char *faultcode, char *faultstring, char *faultactor, struct SOAP_ENV__Detail *detail, struct SOAP_ENV__Code *SOAP_ENV__Code, struct SOAP_ENV__Reason *SOAP_ENV__Reason, char *SOAP_ENV__Node, char *SOAP_ENV__Role, struct SOAP_ENV__Detail *SOAP_ENV__Detail) { struct SOAP_ENV__Fault *_p = soap_instantiate_SOAP_ENV__Fault(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Fault(soap, _p); _p->faultcode = faultcode; _p->faultstring = faultstring; _p->faultactor = faultactor; _p->detail = detail; _p->SOAP_ENV__Code = SOAP_ENV__Code; _p->SOAP_ENV__Reason = SOAP_ENV__Reason; _p->SOAP_ENV__Node = SOAP_ENV__Node; _p->SOAP_ENV__Role = SOAP_ENV__Role; _p->SOAP_ENV__Detail = SOAP_ENV__Detail; } return _p; }$/;"	f
+soap_new_set_SOAP_ENV__Header	soapH.h	/^inline struct SOAP_ENV__Header * soap_new_set_SOAP_ENV__Header(struct soap *soap) { struct SOAP_ENV__Header *_p = soap_instantiate_SOAP_ENV__Header(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Header(soap, _p); } return _p; }$/;"	f
+soap_new_set_SOAP_ENV__Reason	soapH.h	/^inline struct SOAP_ENV__Reason * soap_new_set_SOAP_ENV__Reason(struct soap *soap, char *SOAP_ENV__Text) { struct SOAP_ENV__Reason *_p = soap_instantiate_SOAP_ENV__Reason(soap, -1, NULL, NULL, NULL); if (_p) { soap_default_SOAP_ENV__Reason(soap, _p); _p->SOAP_ENV__Text = SOAP_ENV__Text; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImageByCode	soapH.h	/^inline struct __ns1__getStockImageByCode * soap_new_set___ns1__getStockImageByCode(struct soap *soap, _ns1__getStockImageByCode *ns1__getStockImageByCode) { struct __ns1__getStockImageByCode *_p = soap_instantiate___ns1__getStockImageByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByCode(soap, _p); _p->ns1__getStockImageByCode = ns1__getStockImageByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImageByCode_	soapH.h	/^inline struct __ns1__getStockImageByCode_ * soap_new_set___ns1__getStockImageByCode_(struct soap *soap, _ns1__getStockImageByCode *ns1__getStockImageByCode) { struct __ns1__getStockImageByCode_ *_p = soap_instantiate___ns1__getStockImageByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByCode_(soap, _p); _p->ns1__getStockImageByCode = ns1__getStockImageByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImageByteByCode	soapH.h	/^inline struct __ns1__getStockImageByteByCode * soap_new_set___ns1__getStockImageByteByCode(struct soap *soap, _ns1__getStockImageByteByCode *ns1__getStockImageByteByCode) { struct __ns1__getStockImageByteByCode *_p = soap_instantiate___ns1__getStockImageByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByteByCode(soap, _p); _p->ns1__getStockImageByteByCode = ns1__getStockImageByteByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImageByteByCode_	soapH.h	/^inline struct __ns1__getStockImageByteByCode_ * soap_new_set___ns1__getStockImageByteByCode_(struct soap *soap, _ns1__getStockImageByteByCode *ns1__getStockImageByteByCode) { struct __ns1__getStockImageByteByCode_ *_p = soap_instantiate___ns1__getStockImageByteByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImageByteByCode_(soap, _p); _p->ns1__getStockImageByteByCode = ns1__getStockImageByteByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImage_USCOREkByCode	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByCode * soap_new_set___ns1__getStockImage_USCOREkByCode(struct soap *soap, _ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode) { struct __ns1__getStockImage_USCOREkByCode *_p = soap_instantiate___ns1__getStockImage_USCOREkByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByCode(soap, _p); _p->ns1__getStockImage_USCOREkByCode = ns1__getStockImage_USCOREkByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImage_USCOREkByCode_	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByCode_ * soap_new_set___ns1__getStockImage_USCOREkByCode_(struct soap *soap, _ns1__getStockImage_USCOREkByCode *ns1__getStockImage_USCOREkByCode) { struct __ns1__getStockImage_USCOREkByCode_ *_p = soap_instantiate___ns1__getStockImage_USCOREkByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByCode_(soap, _p); _p->ns1__getStockImage_USCOREkByCode = ns1__getStockImage_USCOREkByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByteByCode * soap_new_set___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode) { struct __ns1__getStockImage_USCOREkByteByCode *_p = soap_instantiate___ns1__getStockImage_USCOREkByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByteByCode(soap, _p); _p->ns1__getStockImage_USCOREkByteByCode = ns1__getStockImage_USCOREkByteByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockImage_USCOREkByteByCode_	soapH.h	/^inline struct __ns1__getStockImage_USCOREkByteByCode_ * soap_new_set___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode *ns1__getStockImage_USCOREkByteByCode) { struct __ns1__getStockImage_USCOREkByteByCode_ *_p = soap_instantiate___ns1__getStockImage_USCOREkByteByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockImage_USCOREkByteByCode_(soap, _p); _p->ns1__getStockImage_USCOREkByteByCode = ns1__getStockImage_USCOREkByteByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockInfoByCode	soapH.h	/^inline struct __ns1__getStockInfoByCode * soap_new_set___ns1__getStockInfoByCode(struct soap *soap, _ns1__getStockInfoByCode *ns1__getStockInfoByCode) { struct __ns1__getStockInfoByCode *_p = soap_instantiate___ns1__getStockInfoByCode(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockInfoByCode(soap, _p); _p->ns1__getStockInfoByCode = ns1__getStockInfoByCode; } return _p; }$/;"	f
+soap_new_set___ns1__getStockInfoByCode_	soapH.h	/^inline struct __ns1__getStockInfoByCode_ * soap_new_set___ns1__getStockInfoByCode_(struct soap *soap, _ns1__getStockInfoByCode *ns1__getStockInfoByCode) { struct __ns1__getStockInfoByCode_ *_p = soap_instantiate___ns1__getStockInfoByCode_(soap, -1, NULL, NULL, NULL); if (_p) { soap_default___ns1__getStockInfoByCode_(soap, _p); _p->ns1__getStockInfoByCode = ns1__getStockInfoByCode; } return _p; }$/;"	f
+soap_new_set__ns1__getStockImageByCode	soapH.h	/^inline _ns1__getStockImageByCode * soap_new_set__ns1__getStockImageByCode(struct soap *soap, char *theStockCode) { _ns1__getStockImageByCode *_p = soap_instantiate__ns1__getStockImageByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockImageByCode::theStockCode = theStockCode; } return _p; }$/;"	f
+soap_new_set__ns1__getStockImageByCodeResponse	soapH.h	/^inline _ns1__getStockImageByCodeResponse * soap_new_set__ns1__getStockImageByCodeResponse(struct soap *soap) { _ns1__getStockImageByCodeResponse *_p = soap_instantiate__ns1__getStockImageByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_set__ns1__getStockImageByteByCode	soapH.h	/^inline _ns1__getStockImageByteByCode * soap_new_set__ns1__getStockImageByteByCode(struct soap *soap, char *theStockCode) { _ns1__getStockImageByteByCode *_p = soap_instantiate__ns1__getStockImageByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockImageByteByCode::theStockCode = theStockCode; } return _p; }$/;"	f
+soap_new_set__ns1__getStockImageByteByCodeResponse	soapH.h	/^inline _ns1__getStockImageByteByCodeResponse * soap_new_set__ns1__getStockImageByteByCodeResponse(struct soap *soap, xsd__base64Binary *getStockImageByteByCodeResult) { _ns1__getStockImageByteByCodeResponse *_p = soap_instantiate__ns1__getStockImageByteByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockImageByteByCodeResponse::getStockImageByteByCodeResult = getStockImageByteByCodeResult; } return _p; }$/;"	f
+soap_new_set__ns1__getStockImage_USCOREkByCode	soapH.h	/^inline _ns1__getStockImage_USCOREkByCode * soap_new_set__ns1__getStockImage_USCOREkByCode(struct soap *soap, char *theStockCode, char *theType) { _ns1__getStockImage_USCOREkByCode *_p = soap_instantiate__ns1__getStockImage_USCOREkByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockImage_USCOREkByCode::theStockCode = theStockCode; _p->_ns1__getStockImage_USCOREkByCode::theType = theType; } return _p; }$/;"	f
+soap_new_set__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	/^inline _ns1__getStockImage_USCOREkByCodeResponse * soap_new_set__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap) { _ns1__getStockImage_USCOREkByCodeResponse *_p = soap_instantiate__ns1__getStockImage_USCOREkByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); } return _p; }$/;"	f
+soap_new_set__ns1__getStockImage_USCOREkByteByCode	soapH.h	/^inline _ns1__getStockImage_USCOREkByteByCode * soap_new_set__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, char *theStockCode, char *theType) { _ns1__getStockImage_USCOREkByteByCode *_p = soap_instantiate__ns1__getStockImage_USCOREkByteByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockImage_USCOREkByteByCode::theStockCode = theStockCode; _p->_ns1__getStockImage_USCOREkByteByCode::theType = theType; } return _p; }$/;"	f
+soap_new_set__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	/^inline _ns1__getStockImage_USCOREkByteByCodeResponse * soap_new_set__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, xsd__base64Binary *getStockImage_USCOREkByteByCodeResult) { _ns1__getStockImage_USCOREkByteByCodeResponse *_p = soap_instantiate__ns1__getStockImage_USCOREkByteByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockImage_USCOREkByteByCodeResponse::getStockImage_USCOREkByteByCodeResult = getStockImage_USCOREkByteByCodeResult; } return _p; }$/;"	f
+soap_new_set__ns1__getStockInfoByCode	soapH.h	/^inline _ns1__getStockInfoByCode * soap_new_set__ns1__getStockInfoByCode(struct soap *soap, char *theStockCode) { _ns1__getStockInfoByCode *_p = soap_instantiate__ns1__getStockInfoByCode(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockInfoByCode::theStockCode = theStockCode; } return _p; }$/;"	f
+soap_new_set__ns1__getStockInfoByCodeResponse	soapH.h	/^inline _ns1__getStockInfoByCodeResponse * soap_new_set__ns1__getStockInfoByCodeResponse(struct soap *soap, ns1__ArrayOfString *getStockInfoByCodeResult) { _ns1__getStockInfoByCodeResponse *_p = soap_instantiate__ns1__getStockInfoByCodeResponse(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->_ns1__getStockInfoByCodeResponse::getStockInfoByCodeResult = getStockInfoByCodeResult; } return _p; }$/;"	f
+soap_new_set_ns1__ArrayOfString	soapH.h	/^inline ns1__ArrayOfString * soap_new_set_ns1__ArrayOfString(struct soap *soap, int __sizestring, char **string) { ns1__ArrayOfString *_p = soap_instantiate_ns1__ArrayOfString(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->ns1__ArrayOfString::__sizestring = __sizestring; _p->ns1__ArrayOfString::string = string; } return _p; }$/;"	f
+soap_new_set_xsd__base64Binary	soapH.h	/^inline xsd__base64Binary * soap_new_set_xsd__base64Binary(struct soap *soap, unsigned char *__ptr, int __size, char *id, char *type, char *options) { xsd__base64Binary *_p = soap_instantiate_xsd__base64Binary(soap, -1, NULL, NULL, NULL); if (_p) { _p->soap_default(soap); _p->xsd__base64Binary::__ptr = __ptr; _p->xsd__base64Binary::__size = __size; _p->xsd__base64Binary::id = id; _p->xsd__base64Binary::type = type; _p->xsd__base64Binary::options = options; } return _p; }$/;"	f
+soap_new_xsd__base64Binary	soapH.h	/^inline xsd__base64Binary * soap_new_xsd__base64Binary(struct soap *soap, int n = -1) { return soap_instantiate_xsd__base64Binary(soap, n, NULL, NULL, NULL); }$/;"	f
+soap_noheader	soapChinaStockWebServiceSoapProxy.cpp	/^void ChinaStockWebServiceSoapProxy::soap_noheader()$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_noheader	soapChinaStockWebServiceSoapService.cpp	/^void ChinaStockWebServiceSoapService::soap_noheader()$/;"	f	class:ChinaStockWebServiceSoapService
+soap_out	soapC.cpp	/^int _ns1__getStockImageByCode::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImageByCode
+soap_out	soapC.cpp	/^int _ns1__getStockImageByCodeResponse::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_out	soapC.cpp	/^int _ns1__getStockImageByteByCode::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImageByteByCode
+soap_out	soapC.cpp	/^int _ns1__getStockImageByteByCodeResponse::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_out	soapC.cpp	/^int _ns1__getStockImage_USCOREkByCode::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_out	soapC.cpp	/^int _ns1__getStockImage_USCOREkByCodeResponse::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_out	soapC.cpp	/^int _ns1__getStockImage_USCOREkByteByCode::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_out	soapC.cpp	/^int _ns1__getStockImage_USCOREkByteByCodeResponse::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_out	soapC.cpp	/^int _ns1__getStockInfoByCode::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockInfoByCode
+soap_out	soapC.cpp	/^int _ns1__getStockInfoByCodeResponse::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_out	soapC.cpp	/^int ns1__ArrayOfString::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:ns1__ArrayOfString
+soap_out	soapC.cpp	/^int xsd__base64Binary::soap_out(struct soap *soap, const char *tag, int id, const char *type) const$/;"	f	class:xsd__base64Binary
+soap_out_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Code(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Code *const*a, const char *type)$/;"	f
+soap_out_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Detail(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Detail *const*a, const char *type)$/;"	f
+soap_out_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Reason(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Reason *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImageByCode(struct soap *soap, const char *tag, int id, _ns1__getStockImageByCode *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImageByCodeResponse(struct soap *soap, const char *tag, int id, _ns1__getStockImageByCodeResponse *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImageByteByCode(struct soap *soap, const char *tag, int id, _ns1__getStockImageByteByCode *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImageByteByCodeResponse(struct soap *soap, const char *tag, int id, _ns1__getStockImageByteByCodeResponse *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImage_USCOREkByCode(struct soap *soap, const char *tag, int id, _ns1__getStockImage_USCOREkByCode *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, const char *tag, int id, _ns1__getStockImage_USCOREkByCodeResponse *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const char *tag, int id, _ns1__getStockImage_USCOREkByteByCode *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, const char *tag, int id, _ns1__getStockImage_USCOREkByteByCodeResponse *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockInfoByCode(struct soap *soap, const char *tag, int id, _ns1__getStockInfoByCode *const*a, const char *type)$/;"	f
+soap_out_PointerTo_ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTo_ns1__getStockInfoByCodeResponse(struct soap *soap, const char *tag, int id, _ns1__getStockInfoByCodeResponse *const*a, const char *type)$/;"	f
+soap_out_PointerTons1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTons1__ArrayOfString(struct soap *soap, const char *tag, int id, ns1__ArrayOfString *const*a, const char *type)$/;"	f
+soap_out_PointerTostring	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTostring(struct soap *soap, const char *tag, int id, char **const*a, const char *type)$/;"	f
+soap_out_PointerTounsignedByte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerTounsignedByte(struct soap *soap, const char *tag, int id, unsigned char *const*a, const char *type)$/;"	f
+soap_out_PointerToxsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToxsd__base64Binary(struct soap *soap, const char *tag, int id, xsd__base64Binary *const*a, const char *type)$/;"	f
+soap_out_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Code(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Code *a, const char *type)$/;"	f
+soap_out_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Detail(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Detail *a, const char *type)$/;"	f
+soap_out_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Fault(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Fault *a, const char *type)$/;"	f
+soap_out_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Header(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Header *a, const char *type)$/;"	f
+soap_out_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Reason(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Reason *a, const char *type)$/;"	f
+soap_out__QName	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__QName(struct soap *soap, const char *tag, int id, char *const*a, const char *type)$/;"	f
+soap_out___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImageByCode(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImageByCode *a, const char *type)$/;"	f
+soap_out___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImageByCode_(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImageByCode_ *a, const char *type)$/;"	f
+soap_out___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImageByteByCode(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImageByteByCode *a, const char *type)$/;"	f
+soap_out___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImageByteByCode_(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImageByteByCode_ *a, const char *type)$/;"	f
+soap_out___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImage_USCOREkByCode(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImage_USCOREkByCode *a, const char *type)$/;"	f
+soap_out___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImage_USCOREkByCode_(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImage_USCOREkByCode_ *a, const char *type)$/;"	f
+soap_out___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImage_USCOREkByteByCode *a, const char *type)$/;"	f
+soap_out___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, const char *tag, int id, const struct __ns1__getStockImage_USCOREkByteByCode_ *a, const char *type)$/;"	f
+soap_out___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockInfoByCode(struct soap *soap, const char *tag, int id, const struct __ns1__getStockInfoByCode *a, const char *type)$/;"	f
+soap_out___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out___ns1__getStockInfoByCode_(struct soap *soap, const char *tag, int id, const struct __ns1__getStockInfoByCode_ *a, const char *type)$/;"	f
+soap_out__ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImageByCode(struct soap *soap, const char *tag, int id, const _ns1__getStockImageByCode *a, const char *type)$/;"	f
+soap_out__ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImageByCodeResponse(struct soap *soap, const char *tag, int id, const _ns1__getStockImageByCodeResponse *a, const char *type)$/;"	f
+soap_out__ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImageByteByCode(struct soap *soap, const char *tag, int id, const _ns1__getStockImageByteByCode *a, const char *type)$/;"	f
+soap_out__ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImageByteByCodeResponse(struct soap *soap, const char *tag, int id, const _ns1__getStockImageByteByCodeResponse *a, const char *type)$/;"	f
+soap_out__ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImage_USCOREkByCode(struct soap *soap, const char *tag, int id, const _ns1__getStockImage_USCOREkByCode *a, const char *type)$/;"	f
+soap_out__ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, const char *tag, int id, const _ns1__getStockImage_USCOREkByCodeResponse *a, const char *type)$/;"	f
+soap_out__ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const char *tag, int id, const _ns1__getStockImage_USCOREkByteByCode *a, const char *type)$/;"	f
+soap_out__ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, const char *tag, int id, const _ns1__getStockImage_USCOREkByteByCodeResponse *a, const char *type)$/;"	f
+soap_out__ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockInfoByCode(struct soap *soap, const char *tag, int id, const _ns1__getStockInfoByCode *a, const char *type)$/;"	f
+soap_out__ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__ns1__getStockInfoByCodeResponse(struct soap *soap, const char *tag, int id, const _ns1__getStockInfoByCodeResponse *a, const char *type)$/;"	f
+soap_out_byte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_byte(struct soap *soap, const char *tag, int id, const char *a, const char *type)$/;"	f
+soap_out_int	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_int(struct soap *soap, const char *tag, int id, const int *a, const char *type)$/;"	f
+soap_out_ns1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns1__ArrayOfString(struct soap *soap, const char *tag, int id, const ns1__ArrayOfString *a, const char *type)$/;"	f
+soap_out_string	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_string(struct soap *soap, const char *tag, int id, char *const*a, const char *type)$/;"	f
+soap_out_unsignedByte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_unsignedByte(struct soap *soap, const char *tag, int id, const unsigned char *a, const char *type)$/;"	f
+soap_out_unsignedInt	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_unsignedInt(struct soap *soap, const char *tag, int id, const unsigned int *a, const char *type)$/;"	f
+soap_out_xsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_xsd__base64Binary(struct soap *soap, const char *tag, int id, const xsd__base64Binary *a, const char *type)$/;"	f
+soap_print_fault	soapChinaStockWebServiceSoapProxy.cpp	/^void ChinaStockWebServiceSoapProxy::soap_print_fault(FILE *fd)$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_print_fault	soapChinaStockWebServiceSoapService.cpp	/^void ChinaStockWebServiceSoapService::soap_print_fault(FILE *fd)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_put	soapC.cpp	/^int _ns1__getStockImageByCode::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImageByCode
+soap_put	soapC.cpp	/^int _ns1__getStockImageByCodeResponse::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_put	soapC.cpp	/^int _ns1__getStockImageByteByCode::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImageByteByCode
+soap_put	soapC.cpp	/^int _ns1__getStockImageByteByCodeResponse::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_put	soapC.cpp	/^int _ns1__getStockImage_USCOREkByCode::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_put	soapC.cpp	/^int _ns1__getStockImage_USCOREkByCodeResponse::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_put	soapC.cpp	/^int _ns1__getStockImage_USCOREkByteByCode::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_put	soapC.cpp	/^int _ns1__getStockImage_USCOREkByteByCodeResponse::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_put	soapC.cpp	/^int _ns1__getStockInfoByCode::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockInfoByCode
+soap_put	soapC.cpp	/^int _ns1__getStockInfoByCodeResponse::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_put	soapC.cpp	/^int ns1__ArrayOfString::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:ns1__ArrayOfString
+soap_put	soapC.cpp	/^int xsd__base64Binary::soap_put(struct soap *soap, const char *tag, const  char *type) const$/;"	f	class:xsd__base64Binary
+soap_put_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImageByCode(struct soap *soap, _ns1__getStockImageByCode *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImageByCodeResponse(struct soap *soap, _ns1__getStockImageByCodeResponse *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImageByteByCode(struct soap *soap, _ns1__getStockImageByteByCode *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImageByteByCodeResponse(struct soap *soap, _ns1__getStockImageByteByCodeResponse *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImage_USCOREkByCode(struct soap *soap, _ns1__getStockImage_USCOREkByCode *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByCodeResponse *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImage_USCOREkByteByCode(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByteByCodeResponse *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockInfoByCode(struct soap *soap, _ns1__getStockInfoByCode *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTo_ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTo_ns1__getStockInfoByCodeResponse(struct soap *soap, _ns1__getStockInfoByCodeResponse *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTons1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTons1__ArrayOfString(struct soap *soap, ns1__ArrayOfString *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTostring	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTostring(struct soap *soap, char **const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerTounsignedByte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerTounsignedByte(struct soap *soap, unsigned char *const*a, const char *tag, const char *type)$/;"	f
+soap_put_PointerToxsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToxsd__base64Binary(struct soap *soap, xsd__base64Binary *const*a, const char *tag, const char *type)$/;"	f
+soap_put_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Code(struct soap *soap, const struct SOAP_ENV__Code *a, const char *tag, const char *type)$/;"	f
+soap_put_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Detail(struct soap *soap, const struct SOAP_ENV__Detail *a, const char *tag, const char *type)$/;"	f
+soap_put_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Fault(struct soap *soap, const struct SOAP_ENV__Fault *a, const char *tag, const char *type)$/;"	f
+soap_put_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Header(struct soap *soap, const struct SOAP_ENV__Header *a, const char *tag, const char *type)$/;"	f
+soap_put_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Reason(struct soap *soap, const struct SOAP_ENV__Reason *a, const char *tag, const char *type)$/;"	f
+soap_put__QName	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put__QName(struct soap *soap, char *const*a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImageByCode(struct soap *soap, const struct __ns1__getStockImageByCode *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImageByCode_(struct soap *soap, const struct __ns1__getStockImageByCode_ *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImageByteByCode(struct soap *soap, const struct __ns1__getStockImageByteByCode *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImageByteByCode_(struct soap *soap, const struct __ns1__getStockImageByteByCode_ *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImage_USCOREkByCode(struct soap *soap, const struct __ns1__getStockImage_USCOREkByCode *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImage_USCOREkByCode_(struct soap *soap, const struct __ns1__getStockImage_USCOREkByCode_ *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const struct __ns1__getStockImage_USCOREkByteByCode *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, const struct __ns1__getStockImage_USCOREkByteByCode_ *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockInfoByCode(struct soap *soap, const struct __ns1__getStockInfoByCode *a, const char *tag, const char *type)$/;"	f
+soap_put___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put___ns1__getStockInfoByCode_(struct soap *soap, const struct __ns1__getStockInfoByCode_ *a, const char *tag, const char *type)$/;"	f
+soap_put_byte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_byte(struct soap *soap, const char *a, const char *tag, const char *type)$/;"	f
+soap_put_int	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_int(struct soap *soap, const int *a, const char *tag, const char *type)$/;"	f
+soap_put_string	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_string(struct soap *soap, char *const*a, const char *tag, const char *type)$/;"	f
+soap_put_unsignedByte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_unsignedByte(struct soap *soap, const unsigned char *a, const char *tag, const char *type)$/;"	f
+soap_put_unsignedInt	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_unsignedInt(struct soap *soap, const unsigned int *a, const char *tag, const char *type)$/;"	f
+soap_putelement	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putelement(struct soap *soap, const void *ptr, const char *tag, int id, int type)$/;"	f
+soap_putfault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putfault(struct soap *soap)$/;"	f
+soap_putheader	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putheader(struct soap *soap)$/;"	f
+soap_putindependent	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putindependent(struct soap *soap)$/;"	f
+soap_read_PointerToSOAP_ENV__Code	soapH.h	1035;"	d
+soap_read_PointerToSOAP_ENV__Detail	soapH.h	1012;"	d
+soap_read_PointerToSOAP_ENV__Reason	soapH.h	989;"	d
+soap_read_PointerTo_ns1__getStockImageByCode	soapH.h	1227;"	d
+soap_read_PointerTo_ns1__getStockImageByCodeResponse	soapH.h	1208;"	d
+soap_read_PointerTo_ns1__getStockImageByteByCode	soapH.h	1189;"	d
+soap_read_PointerTo_ns1__getStockImageByteByCodeResponse	soapH.h	1170;"	d
+soap_read_PointerTo_ns1__getStockImage_USCOREkByCode	soapH.h	1151;"	d
+soap_read_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapH.h	1132;"	d
+soap_read_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapH.h	1113;"	d
+soap_read_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	1094;"	d
+soap_read_PointerTo_ns1__getStockInfoByCode	soapH.h	1075;"	d
+soap_read_PointerTo_ns1__getStockInfoByCodeResponse	soapH.h	1056;"	d
+soap_read_PointerTons1__ArrayOfString	soapH.h	1246;"	d
+soap_read_PointerTostring	soapH.h	1284;"	d
+soap_read_PointerTounsignedByte	soapH.h	1303;"	d
+soap_read_PointerToxsd__base64Binary	soapH.h	1265;"	d
+soap_read_SOAP_ENV__Code	soapH.h	599;"	d
+soap_read_SOAP_ENV__Detail	soapH.h	563;"	d
+soap_read_SOAP_ENV__Fault	soapH.h	491;"	d
+soap_read_SOAP_ENV__Header	soapH.h	635;"	d
+soap_read_SOAP_ENV__Reason	soapH.h	527;"	d
+soap_read__QName	soapH.h	1325;"	d
+soap_read___ns1__getStockImageByCode	soapH.h	957;"	d
+soap_read___ns1__getStockImageByCode_	soapH.h	797;"	d
+soap_read___ns1__getStockImageByteByCode	soapH.h	925;"	d
+soap_read___ns1__getStockImageByteByCode_	soapH.h	765;"	d
+soap_read___ns1__getStockImage_USCOREkByCode	soapH.h	893;"	d
+soap_read___ns1__getStockImage_USCOREkByCode_	soapH.h	733;"	d
+soap_read___ns1__getStockImage_USCOREkByteByCode	soapH.h	861;"	d
+soap_read___ns1__getStockImage_USCOREkByteByCode_	soapH.h	701;"	d
+soap_read___ns1__getStockInfoByCode	soapH.h	829;"	d
+soap_read___ns1__getStockInfoByCode_	soapH.h	669;"	d
+soap_read__ns1__getStockImageByCode	soapH.h	400;"	d
+soap_read__ns1__getStockImageByCodeResponse	soapH.h	371;"	d
+soap_read__ns1__getStockImageByteByCode	soapH.h	342;"	d
+soap_read__ns1__getStockImageByteByCodeResponse	soapH.h	313;"	d
+soap_read__ns1__getStockImage_USCOREkByCode	soapH.h	284;"	d
+soap_read__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	255;"	d
+soap_read__ns1__getStockImage_USCOREkByteByCode	soapH.h	226;"	d
+soap_read__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	197;"	d
+soap_read__ns1__getStockInfoByCode	soapH.h	168;"	d
+soap_read__ns1__getStockInfoByCodeResponse	soapH.h	139;"	d
+soap_read_byte	soapH.h	61;"	d
+soap_read_int	soapH.h	81;"	d
+soap_read_ns1__ArrayOfString	soapH.h	429;"	d
+soap_read_string	soapH.h	1345;"	d
+soap_read_unsignedByte	soapH.h	101;"	d
+soap_read_unsignedInt	soapH.h	121;"	d
+soap_read_xsd__base64Binary	soapH.h	457;"	d
+soap_receiverfault	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::soap_receiverfault(const char *string, const char *detailXML)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_receiverfault	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::soap_receiverfault(const char *subcodeQName, const char *string, const char *detailXML)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_senderfault	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::soap_senderfault(const char *string, const char *detailXML)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_senderfault	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::soap_senderfault(const char *subcodeQName, const char *string, const char *detailXML)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_serialize	soapC.cpp	/^void _ns1__getStockImageByCode::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImageByCode
+soap_serialize	soapC.cpp	/^void _ns1__getStockImageByCodeResponse::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_serialize	soapC.cpp	/^void _ns1__getStockImageByteByCode::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImageByteByCode
+soap_serialize	soapC.cpp	/^void _ns1__getStockImageByteByCodeResponse::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_serialize	soapC.cpp	/^void _ns1__getStockImage_USCOREkByCode::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_serialize	soapC.cpp	/^void _ns1__getStockImage_USCOREkByCodeResponse::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_serialize	soapC.cpp	/^void _ns1__getStockImage_USCOREkByteByCode::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_serialize	soapC.cpp	/^void _ns1__getStockImage_USCOREkByteByCodeResponse::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_serialize	soapC.cpp	/^void _ns1__getStockInfoByCode::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockInfoByCode
+soap_serialize	soapC.cpp	/^void _ns1__getStockInfoByCodeResponse::soap_serialize(struct soap *soap) const$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_serialize	soapC.cpp	/^void ns1__ArrayOfString::soap_serialize(struct soap *soap) const$/;"	f	class:ns1__ArrayOfString
+soap_serialize	soapC.cpp	/^void xsd__base64Binary::soap_serialize(struct soap *soap) const$/;"	f	class:xsd__base64Binary
+soap_serialize_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *const*a)$/;"	f
+soap_serialize_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *const*a)$/;"	f
+soap_serialize_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImageByCode(struct soap *soap, _ns1__getStockImageByCode *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImageByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImageByCodeResponse(struct soap *soap, _ns1__getStockImageByCodeResponse *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImageByteByCode(struct soap *soap, _ns1__getStockImageByteByCode *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImageByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImageByteByCodeResponse(struct soap *soap, _ns1__getStockImageByteByCodeResponse *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImage_USCOREkByCode(struct soap *soap, _ns1__getStockImage_USCOREkByCode *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImage_USCOREkByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByCodeResponse *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImage_USCOREkByteByCode(struct soap *soap, _ns1__getStockImage_USCOREkByteByCode *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse(struct soap *soap, _ns1__getStockImage_USCOREkByteByCodeResponse *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockInfoByCode(struct soap *soap, _ns1__getStockInfoByCode *const*a)$/;"	f
+soap_serialize_PointerTo_ns1__getStockInfoByCodeResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTo_ns1__getStockInfoByCodeResponse(struct soap *soap, _ns1__getStockInfoByCodeResponse *const*a)$/;"	f
+soap_serialize_PointerTons1__ArrayOfString	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTons1__ArrayOfString(struct soap *soap, ns1__ArrayOfString *const*a)$/;"	f
+soap_serialize_PointerTostring	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTostring(struct soap *soap, char **const*a)$/;"	f
+soap_serialize_PointerTounsignedByte	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerTounsignedByte(struct soap *soap, unsigned char *const*a)$/;"	f
+soap_serialize_PointerToxsd__base64Binary	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToxsd__base64Binary(struct soap *soap, xsd__base64Binary *const*a)$/;"	f
+soap_serialize_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Code(struct soap *soap, const struct SOAP_ENV__Code *a)$/;"	f
+soap_serialize_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Detail(struct soap *soap, const struct SOAP_ENV__Detail *a)$/;"	f
+soap_serialize_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Fault(struct soap *soap, const struct SOAP_ENV__Fault *a)$/;"	f
+soap_serialize_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Header(struct soap *soap, const struct SOAP_ENV__Header *a)$/;"	f
+soap_serialize_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Reason(struct soap *soap, const struct SOAP_ENV__Reason *a)$/;"	f
+soap_serialize__QName	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__QName(struct soap *soap, char *const*a)$/;"	f
+soap_serialize___ns1__getStockImageByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImageByCode(struct soap *soap, const struct __ns1__getStockImageByCode *a)$/;"	f
+soap_serialize___ns1__getStockImageByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImageByCode_(struct soap *soap, const struct __ns1__getStockImageByCode_ *a)$/;"	f
+soap_serialize___ns1__getStockImageByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImageByteByCode(struct soap *soap, const struct __ns1__getStockImageByteByCode *a)$/;"	f
+soap_serialize___ns1__getStockImageByteByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImageByteByCode_(struct soap *soap, const struct __ns1__getStockImageByteByCode_ *a)$/;"	f
+soap_serialize___ns1__getStockImage_USCOREkByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImage_USCOREkByCode(struct soap *soap, const struct __ns1__getStockImage_USCOREkByCode *a)$/;"	f
+soap_serialize___ns1__getStockImage_USCOREkByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImage_USCOREkByCode_(struct soap *soap, const struct __ns1__getStockImage_USCOREkByCode_ *a)$/;"	f
+soap_serialize___ns1__getStockImage_USCOREkByteByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImage_USCOREkByteByCode(struct soap *soap, const struct __ns1__getStockImage_USCOREkByteByCode *a)$/;"	f
+soap_serialize___ns1__getStockImage_USCOREkByteByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockImage_USCOREkByteByCode_(struct soap *soap, const struct __ns1__getStockImage_USCOREkByteByCode_ *a)$/;"	f
+soap_serialize___ns1__getStockInfoByCode	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockInfoByCode(struct soap *soap, const struct __ns1__getStockInfoByCode *a)$/;"	f
+soap_serialize___ns1__getStockInfoByCode_	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize___ns1__getStockInfoByCode_(struct soap *soap, const struct __ns1__getStockInfoByCode_ *a)$/;"	f
+soap_serialize_string	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_string(struct soap *soap, char *const*a)$/;"	f
+soap_serializefault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serializefault(struct soap *soap)$/;"	f
+soap_serializeheader	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serializeheader(struct soap *soap)$/;"	f
+soap_sprint_fault	soapChinaStockWebServiceSoapProxy.cpp	/^char *ChinaStockWebServiceSoapProxy::soap_sprint_fault(char *buf, size_t len)$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_sprint_fault	soapChinaStockWebServiceSoapService.cpp	/^char *ChinaStockWebServiceSoapService::soap_sprint_fault(char *buf, size_t len)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_stream_fault	soapChinaStockWebServiceSoapProxy.cpp	/^void ChinaStockWebServiceSoapProxy::soap_stream_fault(std::ostream& os)$/;"	f	class:ChinaStockWebServiceSoapProxy
+soap_stream_fault	soapChinaStockWebServiceSoapService.cpp	/^void ChinaStockWebServiceSoapService::soap_stream_fault(std::ostream& os)$/;"	f	class:ChinaStockWebServiceSoapService
+soap_type	soapStub.h	/^	int soap_type() const { return 29; } \/* = unique id SOAP_TYPE___ns1__getStockImageByCode *\/$/;"	f	struct:__ns1__getStockImageByCode
+soap_type	soapStub.h	/^	int soap_type() const { return 33; } \/* = unique id SOAP_TYPE___ns1__getStockImageByteByCode *\/$/;"	f	struct:__ns1__getStockImageByteByCode
+soap_type	soapStub.h	/^	int soap_type() const { return 37; } \/* = unique id SOAP_TYPE___ns1__getStockImage_USCOREkByCode *\/$/;"	f	struct:__ns1__getStockImage_USCOREkByCode
+soap_type	soapStub.h	/^	int soap_type() const { return 41; } \/* = unique id SOAP_TYPE___ns1__getStockImage_USCOREkByteByCode *\/$/;"	f	struct:__ns1__getStockImage_USCOREkByteByCode
+soap_type	soapStub.h	/^	int soap_type() const { return 45; } \/* = unique id SOAP_TYPE___ns1__getStockInfoByCode *\/$/;"	f	struct:__ns1__getStockInfoByCode
+soap_type	soapStub.h	/^	int soap_type() const { return 47; } \/* = unique id SOAP_TYPE___ns1__getStockImageByCode_ *\/$/;"	f	struct:__ns1__getStockImageByCode_
+soap_type	soapStub.h	/^	int soap_type() const { return 49; } \/* = unique id SOAP_TYPE___ns1__getStockImageByteByCode_ *\/$/;"	f	struct:__ns1__getStockImageByteByCode_
+soap_type	soapStub.h	/^	int soap_type() const { return 51; } \/* = unique id SOAP_TYPE___ns1__getStockImage_USCOREkByCode_ *\/$/;"	f	struct:__ns1__getStockImage_USCOREkByCode_
+soap_type	soapStub.h	/^	int soap_type() const { return 53; } \/* = unique id SOAP_TYPE___ns1__getStockImage_USCOREkByteByCode_ *\/$/;"	f	struct:__ns1__getStockImage_USCOREkByteByCode_
+soap_type	soapStub.h	/^	int soap_type() const { return 55; } \/* = unique id SOAP_TYPE___ns1__getStockInfoByCode_ *\/$/;"	f	struct:__ns1__getStockInfoByCode_
+soap_type	soapStub.h	/^	int soap_type() const { return 56; } \/* = unique id SOAP_TYPE_SOAP_ENV__Header *\/$/;"	f	struct:SOAP_ENV__Header
+soap_type	soapStub.h	/^	int soap_type() const { return 57; } \/* = unique id SOAP_TYPE_SOAP_ENV__Code *\/$/;"	f	struct:SOAP_ENV__Code
+soap_type	soapStub.h	/^	int soap_type() const { return 59; } \/* = unique id SOAP_TYPE_SOAP_ENV__Detail *\/$/;"	f	struct:SOAP_ENV__Detail
+soap_type	soapStub.h	/^	int soap_type() const { return 62; } \/* = unique id SOAP_TYPE_SOAP_ENV__Reason *\/$/;"	f	struct:SOAP_ENV__Reason
+soap_type	soapStub.h	/^	int soap_type() const { return 63; } \/* = unique id SOAP_TYPE_SOAP_ENV__Fault *\/$/;"	f	struct:SOAP_ENV__Fault
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 12; } \/* = unique id SOAP_TYPE_ns1__ArrayOfString *\/$/;"	f	class:ns1__ArrayOfString
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 13; } \/* = unique id SOAP_TYPE__ns1__getStockImageByCode *\/$/;"	f	class:_ns1__getStockImageByCode
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 14; } \/* = unique id SOAP_TYPE__ns1__getStockImageByCodeResponse *\/$/;"	f	class:_ns1__getStockImageByCodeResponse
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 15; } \/* = unique id SOAP_TYPE__ns1__getStockImageByteByCode *\/$/;"	f	class:_ns1__getStockImageByteByCode
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 16; } \/* = unique id SOAP_TYPE__ns1__getStockImageByteByCodeResponse *\/$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 17; } \/* = unique id SOAP_TYPE__ns1__getStockImage_USCOREkByCode *\/$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 18; } \/* = unique id SOAP_TYPE__ns1__getStockImage_USCOREkByCodeResponse *\/$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 19; } \/* = unique id SOAP_TYPE__ns1__getStockImage_USCOREkByteByCode *\/$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 20; } \/* = unique id SOAP_TYPE__ns1__getStockImage_USCOREkByteByCodeResponse *\/$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 21; } \/* = unique id SOAP_TYPE__ns1__getStockInfoByCode *\/$/;"	f	class:_ns1__getStockInfoByCode
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 22; } \/* = unique id SOAP_TYPE__ns1__getStockInfoByCodeResponse *\/$/;"	f	class:_ns1__getStockInfoByCodeResponse
+soap_type	soapStub.h	/^	virtual int soap_type() const { return 7; } \/* = unique id SOAP_TYPE_xsd__base64Binary *\/$/;"	f	class:xsd__base64Binary
+soap_write_PointerToSOAP_ENV__Code	soapH.h	1029;"	d
+soap_write_PointerToSOAP_ENV__Detail	soapH.h	1006;"	d
+soap_write_PointerToSOAP_ENV__Reason	soapH.h	983;"	d
+soap_write_PointerTo_ns1__getStockImageByCode	soapH.h	1221;"	d
+soap_write_PointerTo_ns1__getStockImageByCodeResponse	soapH.h	1202;"	d
+soap_write_PointerTo_ns1__getStockImageByteByCode	soapH.h	1183;"	d
+soap_write_PointerTo_ns1__getStockImageByteByCodeResponse	soapH.h	1164;"	d
+soap_write_PointerTo_ns1__getStockImage_USCOREkByCode	soapH.h	1145;"	d
+soap_write_PointerTo_ns1__getStockImage_USCOREkByCodeResponse	soapH.h	1126;"	d
+soap_write_PointerTo_ns1__getStockImage_USCOREkByteByCode	soapH.h	1107;"	d
+soap_write_PointerTo_ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	1088;"	d
+soap_write_PointerTo_ns1__getStockInfoByCode	soapH.h	1069;"	d
+soap_write_PointerTo_ns1__getStockInfoByCodeResponse	soapH.h	1050;"	d
+soap_write_PointerTons1__ArrayOfString	soapH.h	1240;"	d
+soap_write_PointerTostring	soapH.h	1278;"	d
+soap_write_PointerTounsignedByte	soapH.h	1297;"	d
+soap_write_PointerToxsd__base64Binary	soapH.h	1259;"	d
+soap_write_SOAP_ENV__Code	soapH.h	593;"	d
+soap_write_SOAP_ENV__Detail	soapH.h	557;"	d
+soap_write_SOAP_ENV__Fault	soapH.h	485;"	d
+soap_write_SOAP_ENV__Header	soapH.h	629;"	d
+soap_write_SOAP_ENV__Reason	soapH.h	521;"	d
+soap_write__QName	soapH.h	1319;"	d
+soap_write___ns1__getStockImageByCode	soapH.h	951;"	d
+soap_write___ns1__getStockImageByCode_	soapH.h	791;"	d
+soap_write___ns1__getStockImageByteByCode	soapH.h	919;"	d
+soap_write___ns1__getStockImageByteByCode_	soapH.h	759;"	d
+soap_write___ns1__getStockImage_USCOREkByCode	soapH.h	887;"	d
+soap_write___ns1__getStockImage_USCOREkByCode_	soapH.h	727;"	d
+soap_write___ns1__getStockImage_USCOREkByteByCode	soapH.h	855;"	d
+soap_write___ns1__getStockImage_USCOREkByteByCode_	soapH.h	695;"	d
+soap_write___ns1__getStockInfoByCode	soapH.h	823;"	d
+soap_write___ns1__getStockInfoByCode_	soapH.h	663;"	d
+soap_write__ns1__getStockImageByCode	soapH.h	394;"	d
+soap_write__ns1__getStockImageByCodeResponse	soapH.h	365;"	d
+soap_write__ns1__getStockImageByteByCode	soapH.h	336;"	d
+soap_write__ns1__getStockImageByteByCodeResponse	soapH.h	307;"	d
+soap_write__ns1__getStockImage_USCOREkByCode	soapH.h	278;"	d
+soap_write__ns1__getStockImage_USCOREkByCodeResponse	soapH.h	249;"	d
+soap_write__ns1__getStockImage_USCOREkByteByCode	soapH.h	220;"	d
+soap_write__ns1__getStockImage_USCOREkByteByCodeResponse	soapH.h	191;"	d
+soap_write__ns1__getStockInfoByCode	soapH.h	162;"	d
+soap_write__ns1__getStockInfoByCodeResponse	soapH.h	133;"	d
+soap_write_byte	soapH.h	55;"	d
+soap_write_int	soapH.h	75;"	d
+soap_write_ns1__ArrayOfString	soapH.h	423;"	d
+soap_write_string	soapH.h	1339;"	d
+soap_write_unsignedByte	soapH.h	95;"	d
+soap_write_unsignedInt	soapH.h	115;"	d
+soap_write_xsd__base64Binary	soapH.h	451;"	d
+ssl_accept	soapChinaStockWebServiceSoapService.cpp	/^int ChinaStockWebServiceSoapService::ssl_accept()$/;"	f	class:ChinaStockWebServiceSoapService
+string	soapStub.h	/^	char **string;	\/* optional element of type xsd:string *\/$/;"	m	class:ns1__ArrayOfString
+theStockCode	soapStub.h	/^	char *theStockCode;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockImageByCode
+theStockCode	soapStub.h	/^	char *theStockCode;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockImageByteByCode
+theStockCode	soapStub.h	/^	char *theStockCode;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockImage_USCOREkByCode
+theStockCode	soapStub.h	/^	char *theStockCode;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockImage_USCOREkByteByCode
+theStockCode	soapStub.h	/^	char *theStockCode;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockInfoByCode
+theType	soapStub.h	/^	char *theType;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockImage_USCOREkByCode
+theType	soapStub.h	/^	char *theType;	\/* optional element of type xsd:string *\/$/;"	m	class:_ns1__getStockImage_USCOREkByteByCode
+type	soapStub.h	/^	char *type;	\/* optional element of type xsd:string *\/$/;"	m	class:xsd__base64Binary
+xsd__base64Binary	soapStub.h	/^	         xsd__base64Binary() { xsd__base64Binary::soap_default(NULL); }$/;"	f	class:xsd__base64Binary
+xsd__base64Binary	soapStub.h	/^class SOAP_CMAC xsd__base64Binary$/;"	c
+~ChinaStockWebServiceSoapProxy	soapChinaStockWebServiceSoapProxy.cpp	/^ChinaStockWebServiceSoapProxy::~ChinaStockWebServiceSoapProxy()$/;"	f	class:ChinaStockWebServiceSoapProxy
+~ChinaStockWebServiceSoapService	soapChinaStockWebServiceSoapService.cpp	/^ChinaStockWebServiceSoapService::~ChinaStockWebServiceSoapService()$/;"	f	class:ChinaStockWebServiceSoapService
+~_ns1__getStockImageByCode	soapStub.h	/^	virtual ~_ns1__getStockImageByCode() { }$/;"	f	class:_ns1__getStockImageByCode
+~_ns1__getStockImageByCodeResponse	soapStub.h	/^	virtual ~_ns1__getStockImageByCodeResponse() { }$/;"	f	class:_ns1__getStockImageByCodeResponse
+~_ns1__getStockImageByteByCode	soapStub.h	/^	virtual ~_ns1__getStockImageByteByCode() { }$/;"	f	class:_ns1__getStockImageByteByCode
+~_ns1__getStockImageByteByCodeResponse	soapStub.h	/^	virtual ~_ns1__getStockImageByteByCodeResponse() { }$/;"	f	class:_ns1__getStockImageByteByCodeResponse
+~_ns1__getStockImage_USCOREkByCode	soapStub.h	/^	virtual ~_ns1__getStockImage_USCOREkByCode() { }$/;"	f	class:_ns1__getStockImage_USCOREkByCode
+~_ns1__getStockImage_USCOREkByCodeResponse	soapStub.h	/^	virtual ~_ns1__getStockImage_USCOREkByCodeResponse() { }$/;"	f	class:_ns1__getStockImage_USCOREkByCodeResponse
+~_ns1__getStockImage_USCOREkByteByCode	soapStub.h	/^	virtual ~_ns1__getStockImage_USCOREkByteByCode() { }$/;"	f	class:_ns1__getStockImage_USCOREkByteByCode
+~_ns1__getStockImage_USCOREkByteByCodeResponse	soapStub.h	/^	virtual ~_ns1__getStockImage_USCOREkByteByCodeResponse() { }$/;"	f	class:_ns1__getStockImage_USCOREkByteByCodeResponse
+~_ns1__getStockInfoByCode	soapStub.h	/^	virtual ~_ns1__getStockInfoByCode() { }$/;"	f	class:_ns1__getStockInfoByCode
+~_ns1__getStockInfoByCodeResponse	soapStub.h	/^	virtual ~_ns1__getStockInfoByCodeResponse() { }$/;"	f	class:_ns1__getStockInfoByCodeResponse
+~ns1__ArrayOfString	soapStub.h	/^	virtual ~ns1__ArrayOfString() { }$/;"	f	class:ns1__ArrayOfString
+~xsd__base64Binary	soapStub.h	/^	virtual ~xsd__base64Binary() { }$/;"	f	class:xsd__base64Binary

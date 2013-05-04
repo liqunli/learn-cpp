@@ -1,13 +1,7 @@
 #ifndef QSORT_H
 #define QSORT_H
 
-//swap two elements in an array
-void swap(int* array, int i, int j)
-{
-	int tmp = array[i];
-	array[i] = array[j];
-	array[j] = tmp;
-}
+#include "swap.h"
 
 //the function has two index parameters left and right which are used for resursive calling
 void my_qsort(int* array, int left, int right)
@@ -41,7 +35,7 @@ void my_qsort(int* array, int left, int right)
 		// ensure that all left elements are <= pivot, while those on the right > pivot
 		if(i < right && j < right)
 		{
-			swap(array, i, j);
+			swap(array, i, j, right - left);
 			i++;
 		}
 		else
@@ -50,7 +44,7 @@ void my_qsort(int* array, int left, int right)
 			//so we should swap pivot with the last element, i.e., the (i-1)th. 
 			//If j >= right, it means that all elements after i are > pivot including i.
 			//so we also should swap pivot with the (i-1)th element.
-			swap(array, i-1, left);
+			swap(array, i-1, left, right - left);
 			//we break here as the pivot arrives the right position in the array.
 			break;
 		}

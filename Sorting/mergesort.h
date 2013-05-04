@@ -35,17 +35,23 @@ void mergeTwoArrays(int* array, int left, int mid, int right)
 	delete tmp;
 }	
 
-void my_mergesort(int* array, int left, int right)
+//right is the index after the last element
+void _my_mergesort(int* array, int left, int right)
 {
 	if(left == right)
 	{
 		return;
 	}
 	//recursively sort left and right branches
-	my_mergesort(array, left, (left + right)/2);
-	my_mergesort(array, (left + right)/2 + 1, right);
+	_my_mergesort(array, left, (left + right)/2);
+	_my_mergesort(array, (left + right)/2 + 1, right);
 	//merge two braches together
 	mergeTwoArrays(array, left, (left + right)/2 + 1, right);
+}
+//make sure consistent interface
+void my_mergesort(int *array, int left, int right)
+{
+	_my_mergesort(array, left, right - 1);
 }
 
 #endif

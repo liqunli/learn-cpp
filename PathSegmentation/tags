@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Mark	solution.cpp	/^class Mark$/;"	c	file:
+Mark::x	solution.cpp	/^		double x;$/;"	m	class:Mark	file:	access:public
+Mark::y	solution.cpp	/^		double y;$/;"	m	class:Mark	file:	access:public
+MileStone	solution.cpp	/^class MileStone$/;"	c	file:
+MileStone::x	solution.cpp	/^		double x;$/;"	m	class:MileStone	file:	access:public
+MileStone::y	solution.cpp	/^		double y;$/;"	m	class:MileStone	file:	access:public
+findNextMileStone	solution.cpp	/^void findNextMileStone(const MileStone& milestone, const vector<Mark>& marks, double step_len, int next_mark_idx, MileStone& next_milestone)$/;"	f	signature:(const MileStone& milestone, const vector<Mark>& marks, double step_len, int next_mark_idx, MileStone& next_milestone)
+main	solution.cpp	/^int main()$/;"	f	signature:()
+split	solution.cpp	/^void split(const string& str, char spliter, vector<string>& result)$/;"	f	signature:(const string& str, char spliter, vector<string>& result)
+x	solution.cpp	/^		double x;$/;"	m	class:Mark	file:	access:public
+x	solution.cpp	/^		double x;$/;"	m	class:MileStone	file:	access:public
+y	solution.cpp	/^		double y;$/;"	m	class:Mark	file:	access:public
+y	solution.cpp	/^		double y;$/;"	m	class:MileStone	file:	access:public
