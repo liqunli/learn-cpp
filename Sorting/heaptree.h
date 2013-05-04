@@ -1,9 +1,11 @@
-#ifndef TREE_H
-#define TREE_H
+#ifndef HEAP_TREE_H
+#define HEAP_TREE_H
+
 #include<iostream>
 using namespace std;
+//include swap.h for using the function of swapping two elements in an arry
 #include "swap.h"
-
+//define the maximum size of the heaptree
 #define MAX_TREE_SIZE 100
 
 class HeapTree
@@ -14,14 +16,21 @@ class HeapTree
 		bool getLeftChild(int root, int& child);
 		bool getRightChild(int root, int &child);
 		bool getParent(int child, int& parent);
+		//find the right position for the root element in a subtree
 		void keepOrderDown(int root);
+		//build the max heaptree
 		void buildMaxHeapTree();
 	public:
+		//create a new heaptree based on an integer array
 		HeapTree(int* data, int len);
 		~HeapTree();
 		HeapTree(HeapTree& another);
-		void sort();
+		//insert new element into the max-heaptree 'before' sorting
+		//after sorting, we may use binary insertion
+		bool insert(int newData);
 		void printData();
+
+		void sort();
 };
 
 HeapTree::HeapTree(int* data, int len)
@@ -82,7 +91,9 @@ bool HeapTree::getParent(int child, int& parent)
 	parent = (child-1)/2;
 	return true;
 }
-
+//This is the key function in heap sort which takes the input of an index/pointer to
+//an element on the tree. If the left and right sub-trees are already in the right order,
+//after invoking keepOrderDown, the tree rooted at 'root' should be in the right order.
 void HeapTree::keepOrderDown(int root)
 {
 	if(root >= size)
@@ -112,16 +123,25 @@ void HeapTree::keepOrderDown(int root)
 	}
 }
 
+//Note that invoking keepOrderDown is based on the assumption that the left/right subtrees
+//are in the right order. So buildMaxHeapTree starts from building the shortest heaptrees 
+//from the very bottom level.
 void HeapTree::buildMaxHeapTree()
 {
 	int lastNonChild = 0;
-	getParent(size - 1, lastNonChild);//get the last non-child node on the tree
+	//get the last non-child node on the tree 
+	//start to orgnize the elements in the right order
+	getParent(size - 1, lastNonChild);
 	for(int i = lastNonChild; i >= 0; i--)
 	{
 		keepOrderDown(i);
 	}
 }
 
+//The root of the heaptree should be the largest element in the array. For each step, swap
+//the root element (i.e., the 0th element) with the last one, and then run keepOrderDown(0)
+//on a sub-array with size decreased by one. Essentially, after swapping, the left/right
+//subtrees of the new root are in the right order. 
 void HeapTree::sort()
 {
 	buildMaxHeapTree();
@@ -133,6 +153,42 @@ void HeapTree::sort()
 		keepOrderDown(0);
 	}	
 	size = tmp;
+}
+
+bool HeapTree::insert(int newData)
+{
+	if(size == MAX_TREE_SIZE)
+	{
+		return false;
+	}
+	//put the new data into the array
+	array[size] = newData;
+	size++;
+	int cur_idx = size - 1;
+	while(true)
+	{
+		int parent = 0;
+		bool suc = getParent(cur_idx, parent);
+		//record the value of parent to check if we should keep going up
+		int tmp = array[parent];
+		if(!suc)
+		{
+			//the parent is smaller than 0
+			break;
+		}
+		keepOrderDown(parent);
+
+		if(tmp == array[parent])
+		{
+			//the order is correct, no need to keep going up
+			break;
+		}
+		else
+		{
+			cur_idx = parent;
+		}
+	}
+	return true;
 }
 
 void HeapTree::printData()

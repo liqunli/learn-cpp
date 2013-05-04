@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1367682773 source:/home/liqun/.git/learn-cpp/Sorting/main.cpp
+	<iostream>
+	"qsort.h"
+	"bubblesort.h"
+	"mergesort.h"
+	"heaptree.h"
+	<stdio.h>
+
+1367337749 /home/liqun/.git/learn-cpp/Sorting/qsort.h
+	"swap.h"
+
+1367337416 /home/liqun/.git/learn-cpp/Sorting/swap.h
+
+1367337778 /home/liqun/.git/learn-cpp/Sorting/bubblesort.h
+	"swap.h"
+
+1367639505 /home/liqun/.git/learn-cpp/Sorting/mergesort.h
+
+1367682749 /home/liqun/.git/learn-cpp/Sorting/heaptree.h
+	<iostream>
+	"swap.h"
+
